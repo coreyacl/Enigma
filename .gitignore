@@ -1,0 +1,12 @@
+# Prerequisites
+*.d
+
+# Kicad Ignores
+*.bak
+*.log
+*.FCStd
+*.FCStd1
+*.ini
+*.schPreview
+rescue-backup/
+rescue-backup
