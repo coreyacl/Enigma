@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# formula:CONN_02X03
+# formula_CONN_02X03
 #
-DEF formula:CONN_02X03 J 0 1 Y N 1 F N
+DEF formula_CONN_02X03 J 0 1 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "formula:CONN_02X03" 0 -200 50 H V C CNN
+F1 "formula_CONN_02X03" 0 -200 50 H V C CNN
 F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -34,11 +34,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula:C_0.1uF
+# formula_C_0.1uF
 #
-DEF formula:C_0.1uF C 0 10 N Y 1 F N
+DEF formula_C_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "formula:C_0.1uF" 25 -100 50 H V L CNN
+F1 "formula_C_0.1uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -59,11 +59,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula:R_0
+# formula_R_0
 #
-DEF formula:R_0 R 0 0 N Y 1 F N
+DEF formula_R_0 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "formula:R_0" -100 0 50 V V C CNN
+F1 "formula_R_0" -100 0 50 V V C CNN
 F2 "footprints:R_0603_1608Metric" -70 0 50 H I C CNN
 F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -80,11 +80,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula:R_10K
+# formula_R_10K
 #
-DEF formula:R_10K R 0 0 N Y 1 F N
+DEF formula_R_10K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "formula:R_10K" -100 0 50 V V C CNN
+F1 "formula_R_10K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -101,11 +101,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula:R_1K
+# formula_R_1K
 #
-DEF formula:R_1K R 0 0 N Y 1 F N
+DEF formula_R_1K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "formula:R_1K" -100 0 50 V V C CNN
+F1 "formula_R_1K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -122,11 +122,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# library:ADG732
+# library_ADG732
 #
-DEF library:ADG732 U 0 40 Y Y 1 F N
+DEF library_ADG732 U 0 40 Y Y 1 F N
 F0 "U" -700 1730 50 H V L BNN
-F1 "library:ADG732" -50 700 50 H V L BNN
+F1 "library_ADG732" -50 700 50 H V L BNN
 F2 "footprints:48-TQFP" 150 300 50 H I C CIN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG726_732.pdf" -250 2450 50 H I C CNN
 F4 "ADG732BSUZ-REEL" 150 600 60 H I C CNN "MPN"
@@ -189,11 +189,11 @@ X S4 9 -950 400 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# library:Conn_01x19_Male_0
+# library_Conn_01x19_Male_0
 #
-DEF library:Conn_01x19_Male_0 J 0 40 Y N 1 F N
+DEF library_Conn_01x19_Male_0 J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "library:Conn_01x19_Male_0" 0 -1000 50 H V C CNN
+F1 "library_Conn_01x19_Male_0" 0 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -260,11 +260,11 @@ X Pin_9 9 200 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# library:audio_jack
+# plugboard-rescue_audio_jack-library
 #
-DEF library:audio_jack IC 0 40 Y Y 1 F N
+DEF plugboard-rescue_audio_jack-library IC 0 40 Y Y 1 F N
 F0 "IC" -1250 1480 50 H V L BNN
-F1 "library:audio_jack" -950 -150 50 H V L BNN
+F1 "plugboard-rescue_audio_jack-library" -950 -150 50 H V L BNN
 F2 "footprints:Through Hole" 950 -450 50 H I C CIN
 F3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" -1250 1480 50 H I C CNN
 F4 "112BX" -300 -200 60 H I C CNN "MPN"
@@ -286,11 +286,11 @@ X T 3 550 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -299,11 +299,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
