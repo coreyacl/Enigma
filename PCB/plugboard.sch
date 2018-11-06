@@ -777,7 +777,7 @@ U 1 1 5BE19AD4
 P 4600 4400
 F 0 "J3" H 4954 5042 50  0000 C CNN
 F 1 "1/4\" Jack" H 4954 4951 50  0000 C CNN
-F 2 "footprints:Through Hole" H 5550 3950 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 5550 3950 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 5880 50  0001 C CNN
 F 4 "112BX" H 4300 4050 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 4300 4050 60  0001 C CNN "MFN"
@@ -792,7 +792,7 @@ U 1 1 5BE19FAB
 P 5950 4400
 F 0 "J6" H 6304 5042 50  0000 C CNN
 F 1 "1/4\" Jack" H 6304 4951 50  0000 C CNN
-F 2 "footprints:Through Hole" H 6900 3950 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 6900 3950 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 5880 50  0001 C CNN
 F 4 "112BX" H 5650 4050 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 5650 4050 60  0001 C CNN "MFN"
@@ -807,7 +807,7 @@ U 1 1 5BE1BB85
 P 7300 3350
 F 0 "J8" H 7654 3992 50  0000 C CNN
 F 1 "1/4\" Jack" H 7654 3901 50  0000 C CNN
-F 2 "footprints:Through Hole" H 8250 2900 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 8250 2900 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 4830 50  0001 C CNN
 F 4 "112BX" H 7000 3000 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 7000 3000 60  0001 C CNN "MFN"
@@ -822,7 +822,7 @@ U 1 1 5BE1BB8F
 P 5950 2250
 F 0 "J4" H 6304 2892 50  0000 C CNN
 F 1 "1/4\" Jack" H 6304 2801 50  0000 C CNN
-F 2 "footprints:Through Hole" H 6900 1800 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 6900 1800 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 3730 50  0001 C CNN
 F 4 "112BX" H 5650 1900 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 5650 1900 60  0001 C CNN "MFN"
@@ -837,7 +837,7 @@ U 1 1 5BE1EF6E
 P 4600 3350
 F 0 "J2" H 4954 3992 50  0000 C CNN
 F 1 "1/4\" Jack" H 4954 3901 50  0000 C CNN
-F 2 "footprints:Through Hole" H 5550 2900 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 5550 2900 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 4830 50  0001 C CNN
 F 4 "112BX" H 4300 3000 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 4300 3000 60  0001 C CNN "MFN"
@@ -852,7 +852,7 @@ U 1 1 5BE1EF78
 P 5950 3350
 F 0 "J5" H 6304 3992 50  0000 C CNN
 F 1 "1/4\" Jack" H 6304 3901 50  0000 C CNN
-F 2 "footprints:Through Hole" H 6900 2900 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 6900 2900 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 4830 50  0001 C CNN
 F 4 "112BX" H 5650 3000 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 5650 3000 60  0001 C CNN "MFN"
@@ -867,7 +867,7 @@ U 1 1 5BE1EF82
 P 7300 4450
 F 0 "J9" H 7654 5092 50  0000 C CNN
 F 1 "1/4\" Jack" H 7654 5001 50  0000 C CNN
-F 2 "footprints:Through Hole" H 8250 4000 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 8250 4000 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 5930 50  0001 C CNN
 F 4 "112BX" H 7000 4100 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 7000 4100 60  0001 C CNN "MFN"
@@ -882,7 +882,7 @@ U 1 1 5BE1EF8C
 P 4600 2250
 F 0 "J1" H 4954 2892 50  0000 C CNN
 F 1 "1/4\" Jack" H 4954 2801 50  0000 C CNN
-F 2 "footprints:Through Hole" H 5550 1800 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 5550 1800 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 3730 50  0001 C CNN
 F 4 "112BX" H 4300 1900 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 4300 1900 60  0001 C CNN "MFN"
@@ -897,7 +897,7 @@ U 1 1 5BE1EF96
 P 7300 2250
 F 0 "J7" H 7654 2892 50  0000 C CNN
 F 1 "1/4\" Jack" H 7654 2801 50  0000 C CNN
-F 2 "footprints:Through Hole" H 8250 1800 50  0001 C CIN
+F 2 "enigmaprints:jack_hole" H 8250 1800 50  0001 C CIN
 F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 3730 50  0001 C CNN
 F 4 "112BX" H 7000 1900 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 7000 1900 60  0001 C CNN "MFN"
@@ -1104,7 +1104,7 @@ U 1 1 5BE9E4FF
 P 9950 2700
 F 0 "J10" H 10056 3778 50  0000 C CNN
 F 1 "Conn_01x19_Male_0" H 10056 3687 50  0000 C CNN
-F 2 "" H 9950 2700 50  0001 C CNN
+F 2 "enigmaprints:sidebar" H 9950 2700 50  0001 C CNN
 F 3 "~" H 9950 2700 50  0001 C CNN
 	1    9950 2700
 	1    0    0    -1  
@@ -1246,7 +1246,7 @@ U 1 1 5C020198
 P 9950 5200
 F 0 "J11" H 10056 6278 50  0000 C CNN
 F 1 "Conn_01x19_Male_0" H 10056 6187 50  0000 C CNN
-F 2 "" H 9950 5200 50  0001 C CNN
+F 2 "enigmaprints:sidebar" H 9950 5200 50  0001 C CNN
 F 3 "~" H 9950 5200 50  0001 C CNN
 	1    9950 5200
 	1    0    0    -1  
