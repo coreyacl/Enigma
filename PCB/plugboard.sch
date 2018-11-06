@@ -772,7 +772,7 @@ Wire Wire Line
 	2150 2000 2150 2100
 Connection ~ 2150 2100
 $Comp
-L library:audio_jack J3
+L plugboard-rescue:audio_jack-library J3
 U 1 1 5BE19AD4
 P 4600 4400
 F 0 "J3" H 4954 5042 50  0000 C CNN
@@ -787,7 +787,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J6
+L plugboard-rescue:audio_jack-library J6
 U 1 1 5BE19FAB
 P 5950 4400
 F 0 "J6" H 6304 5042 50  0000 C CNN
@@ -802,7 +802,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J8
+L plugboard-rescue:audio_jack-library J8
 U 1 1 5BE1BB85
 P 7300 3350
 F 0 "J8" H 7654 3992 50  0000 C CNN
@@ -817,7 +817,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J4
+L plugboard-rescue:audio_jack-library J4
 U 1 1 5BE1BB8F
 P 5950 2250
 F 0 "J4" H 6304 2892 50  0000 C CNN
@@ -832,7 +832,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J2
+L plugboard-rescue:audio_jack-library J2
 U 1 1 5BE1EF6E
 P 4600 3350
 F 0 "J2" H 4954 3992 50  0000 C CNN
@@ -847,7 +847,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J5
+L plugboard-rescue:audio_jack-library J5
 U 1 1 5BE1EF78
 P 5950 3350
 F 0 "J5" H 6304 3992 50  0000 C CNN
@@ -862,7 +862,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J9
+L plugboard-rescue:audio_jack-library J9
 U 1 1 5BE1EF82
 P 7300 4450
 F 0 "J9" H 7654 5092 50  0000 C CNN
@@ -877,7 +877,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J1
+L plugboard-rescue:audio_jack-library J1
 U 1 1 5BE1EF8C
 P 4600 2250
 F 0 "J1" H 4954 2892 50  0000 C CNN
@@ -892,7 +892,7 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 	1    0    0    -1  
 $EndComp
 $Comp
-L library:audio_jack J7
+L plugboard-rescue:audio_jack-library J7
 U 1 1 5BE1EF96
 P 7300 2250
 F 0 "J7" H 7654 2892 50  0000 C CNN
@@ -908,13 +908,13 @@ F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1
 $EndComp
 Text Label 6650 2650 0    50   ~ 0
 A
-Text Label 8250 3750 0    50   ~ 0
+Text Label 7750 3350 0    50   ~ 0
 B
-Text Label 5300 2350 3    50   ~ 0
+Text Label 4800 1950 3    50   ~ 0
 S1
-NoConn ~ 6500 3050
-NoConn ~ 7850 4150
-Text Label 6650 2350 3    50   ~ 0
+NoConn ~ 6000 2650
+NoConn ~ 7350 3750
+Text Label 6150 1950 3    50   ~ 0
 S2
 Text Label 1500 5250 2    50   ~ 0
 S7
@@ -964,19 +964,19 @@ Text Label 2100 4200 1    50   ~ 0
 S14
 Text Label 4050 4950 0    50   ~ 0
 S25
-Text Label 6650 4500 3    50   ~ 0
+Text Label 6150 4100 3    50   ~ 0
 S7
-Text Label 8000 4550 3    50   ~ 0
+Text Label 7500 4150 3    50   ~ 0
 S8
-Text Label 5550 3450 3    50   ~ 0
+Text Label 5050 3050 3    50   ~ 0
 S9
-Text Label 8000 2350 3    50   ~ 0
+Text Label 7500 1950 3    50   ~ 0
 S3
-Text Label 6650 3450 3    50   ~ 0
+Text Label 6150 3050 3    50   ~ 0
 S4
-Text Label 8000 3450 3    50   ~ 0
+Text Label 7500 3050 3    50   ~ 0
 S5
-Text Label 5300 4500 3    50   ~ 0
+Text Label 4800 4100 3    50   ~ 0
 S6
 Text Label 1500 6150 2    50   ~ 0
 S1
@@ -991,61 +991,61 @@ NoConn ~ 3150 4200
 NoConn ~ 3000 4200
 NoConn ~ 2850 4200
 NoConn ~ 2550 4200
-Text Label 5550 3700 0    50   ~ 0
+Text Label 5050 3300 0    50   ~ 0
 C
-Text Label 5550 2650 0    50   ~ 0
+Text Label 5050 2250 0    50   ~ 0
 D
-Text Label 8000 1550 0    50   ~ 0
+Text Label 7500 1150 0    50   ~ 0
 E
-Text Label 6900 2650 0    50   ~ 0
+Text Label 6400 2250 0    50   ~ 0
 F
-Text Label 8250 2650 0    50   ~ 0
+Text Label 7750 2250 0    50   ~ 0
 G
-Text Label 5800 2650 0    50   ~ 0
+Text Label 5300 2250 0    50   ~ 0
 H
-Text Label 7150 1550 0    50   ~ 0
+Text Label 6650 1150 0    50   ~ 0
 I
-Text Label 7150 2650 0    50   ~ 0
+Text Label 6650 2250 0    50   ~ 0
 J
-Text Label 8500 2650 0    50   ~ 0
+Text Label 8000 2250 0    50   ~ 0
 K
-Text Label 8500 3750 0    50   ~ 0
+Text Label 8000 3350 0    50   ~ 0
 L
-Text Label 7150 3700 0    50   ~ 0
+Text Label 6650 3300 0    50   ~ 0
 M
-Text Label 5800 3700 0    50   ~ 0
+Text Label 5300 3300 0    50   ~ 0
 N
-Text Label 8500 1550 0    50   ~ 0
+Text Label 8000 1150 0    50   ~ 0
 O
-Text Label 5300 3700 0    50   ~ 0
+Text Label 4800 3300 0    50   ~ 0
 P
-Text Label 5300 1550 0    50   ~ 0
+Text Label 4800 1150 0    50   ~ 0
 Q
-Text Label 5550 1550 0    50   ~ 0
+Text Label 5050 1150 0    50   ~ 0
 R
-Text Label 8000 2650 0    50   ~ 0
+Text Label 7500 2250 0    50   ~ 0
 S
-Text Label 6900 1550 0    50   ~ 0
+Text Label 6400 1150 0    50   ~ 0
 T
-Text Label 5800 1550 0    50   ~ 0
+Text Label 5300 1150 0    50   ~ 0
 U
-Text Label 6900 3700 0    50   ~ 0
+Text Label 6400 3300 0    50   ~ 0
 V
-Text Label 6650 1550 0    50   ~ 0
+Text Label 6150 1150 0    50   ~ 0
 W
-Text Label 8000 3750 0    50   ~ 0
+Text Label 7500 3350 0    50   ~ 0
 X
-Text Label 6650 3700 0    50   ~ 0
+Text Label 6150 3300 0    50   ~ 0
 Y
-Text Label 8250 1550 0    50   ~ 0
+Text Label 7750 1150 0    50   ~ 0
 Z
-NoConn ~ 5150 1950
-NoConn ~ 7850 1950
-NoConn ~ 6500 1950
-NoConn ~ 5150 3050
-NoConn ~ 5150 4100
-NoConn ~ 7850 3050
-NoConn ~ 6500 4100
+NoConn ~ 4650 1550
+NoConn ~ 7350 1550
+NoConn ~ 6000 1550
+NoConn ~ 4650 2650
+NoConn ~ 4650 3700
+NoConn ~ 7350 2650
+NoConn ~ 6000 3700
 $Comp
 L formula:R_1K R80
 U 1 1 5BDFBAA5
@@ -1068,34 +1068,34 @@ Wire Wire Line
 $Comp
 L formula:R_0 R19
 U 1 1 5BE216D9
-P 5550 1700
-F 0 "R19" H 5480 1654 50  0000 R CNN
-F 1 "R_0" H 5480 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 1700 50  0001 C CNN
-F 3 "" H 5550 1700 50  0001 C CNN
-	1    5550 1700
+P 5050 1300
+F 0 "R19" H 4980 1254 50  0000 R CNN
+F 1 "R_0" H 4980 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 1300 50  0001 C CNN
+F 3 "" H 5050 1300 50  0001 C CNN
+	1    5050 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R15
 U 1 1 5BE216DF
-P 5300 1700
-F 0 "R15" H 5230 1654 50  0000 R CNN
-F 1 "R_0" H 5230 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5230 1700 50  0001 C CNN
-F 3 "" H 5300 1700 50  0001 C CNN
-	1    5300 1700
+P 4800 1300
+F 0 "R15" H 4730 1254 50  0000 R CNN
+F 1 "R_0" H 4730 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4730 1300 50  0001 C CNN
+F 3 "" H 4800 1300 50  0001 C CNN
+	1    4800 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R26
 U 1 1 5BE216E5
-P 5800 1700
-F 0 "R26" H 5730 1654 50  0000 R CNN
-F 1 "R_0" H 5730 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 1700 50  0001 C CNN
-F 3 "" H 5800 1700 50  0001 C CNN
-	1    5800 1700
+P 5300 1300
+F 0 "R26" H 5230 1254 50  0000 R CNN
+F 1 "R_0" H 5230 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 1300 50  0001 C CNN
+F 3 "" H 5300 1300 50  0001 C CNN
+	1    5300 1300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1130,69 +1130,69 @@ S8
 $Comp
 L formula:R_0 R20
 U 1 1 5BEFB537
-P 5550 2200
-F 0 "R20" H 5480 2154 50  0000 R CNN
-F 1 "R_0" H 5480 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 2200 50  0001 C CNN
-F 3 "" H 5550 2200 50  0001 C CNN
-	1    5550 2200
+P 5050 1800
+F 0 "R20" H 4980 1754 50  0000 R CNN
+F 1 "R_0" H 4980 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 1800 50  0001 C CNN
+F 3 "" H 5050 1800 50  0001 C CNN
+	1    5050 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R27
 U 1 1 5BEFB53D
-P 5800 2200
-F 0 "R27" H 5730 2154 50  0000 R CNN
-F 1 "R_0" H 5730 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 2200 50  0001 C CNN
-F 3 "" H 5800 2200 50  0001 C CNN
-	1    5800 2200
+P 5300 1800
+F 0 "R27" H 5230 1754 50  0000 R CNN
+F 1 "R_0" H 5230 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R16
 U 1 1 5BEFB543
-P 5300 2200
-F 0 "R16" H 5230 2154 50  0000 R CNN
-F 1 "R_0" H 5230 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5230 2200 50  0001 C CNN
-F 3 "" H 5300 2200 50  0001 C CNN
-	1    5300 2200
+P 4800 1800
+F 0 "R16" H 4730 1754 50  0000 R CNN
+F 1 "R_0" H 4730 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4730 1800 50  0001 C CNN
+F 3 "" H 4800 1800 50  0001 C CNN
+	1    4800 1800
 	1    0    0    -1  
 $EndComp
-Text Label 5550 2350 3    50   ~ 0
+Text Label 5050 1950 3    50   ~ 0
 S10
-Text Label 5800 2350 3    50   ~ 0
+Text Label 5300 1950 3    50   ~ 0
 S19
-Text Label 6900 3450 3    50   ~ 0
+Text Label 6400 3050 3    50   ~ 0
 S13
-Text Label 7150 3450 3    50   ~ 0
+Text Label 6650 3050 3    50   ~ 0
 S22
-Text Label 8250 2350 3    50   ~ 0
+Text Label 7750 1950 3    50   ~ 0
 S12
-Text Label 8500 2350 3    50   ~ 0
+Text Label 8000 1950 3    50   ~ 0
 S21
-Text Label 6900 2350 3    50   ~ 0
+Text Label 6400 1950 3    50   ~ 0
 S11
-Text Label 7150 2350 3    50   ~ 0
+Text Label 6650 1950 3    50   ~ 0
 S20
-Text Label 8250 4550 3    50   ~ 0
+Text Label 7750 4150 3    50   ~ 0
 S17
-Text Label 8500 4550 3    50   ~ 0
+Text Label 8000 4150 3    50   ~ 0
 S26
-Text Label 8250 3450 3    50   ~ 0
+Text Label 7750 3050 3    50   ~ 0
 S14
-Text Label 8500 3450 3    50   ~ 0
+Text Label 8000 3050 3    50   ~ 0
 S23
-Text Label 6900 4500 3    50   ~ 0
+Text Label 6400 4100 3    50   ~ 0
 S16
-Text Label 7150 4500 3    50   ~ 0
+Text Label 6650 4100 3    50   ~ 0
 S25
-Text Label 5550 4500 3    50   ~ 0
+Text Label 5050 4100 3    50   ~ 0
 S15
-Text Label 5800 4500 3    50   ~ 0
+Text Label 5300 4100 3    50   ~ 0
 S24
-Text Label 5800 3450 3    50   ~ 0
+Text Label 5300 3050 3    50   ~ 0
 S18
 Text Label 10150 2600 0    50   ~ 0
 S10
@@ -1318,647 +1318,1479 @@ $EndComp
 Wire Wire Line
 	1450 6450 2100 6450
 Wire Wire Line
-	7850 4050 8000 4050
+	7350 3650 7500 3650
 Wire Wire Line
-	6500 1850 6650 1850
+	6000 1450 6150 1450
 Wire Wire Line
-	6500 2950 6650 2950
+	6000 2550 6150 2550
 Wire Wire Line
-	5150 4000 5300 4000
+	4650 3600 4800 3600
 Wire Wire Line
-	5150 1850 5300 1850
+	4650 1450 4800 1450
 Wire Wire Line
-	7850 2950 8000 2950
+	7350 2550 7500 2550
 Wire Wire Line
-	6500 4000 6650 4000
+	6000 3600 6150 3600
 Wire Wire Line
-	7850 1850 8000 1850
+	7350 1450 7500 1450
 Wire Wire Line
-	5150 2050 5300 2050
+	4650 1650 4800 1650
 Wire Wire Line
-	5150 3150 5550 3150
+	4650 2750 5050 2750
 Wire Wire Line
-	7850 2050 8000 2050
+	7350 1650 7500 1650
 Wire Wire Line
-	6500 2050 6650 2050
+	6000 1650 6150 1650
 Wire Wire Line
-	7850 4250 8000 4250
+	7350 3850 7500 3850
 Wire Wire Line
-	7850 3150 8000 3150
+	7350 2750 7500 2750
 Wire Wire Line
-	6500 3150 6650 3150
+	6000 2750 6150 2750
 Wire Wire Line
-	6500 4200 6650 4200
+	6000 3800 6150 3800
 Wire Wire Line
-	5150 4200 5300 4200
+	4650 3800 4800 3800
 $Comp
 L formula:R_0 R41
 U 1 1 5BE1F637
-P 6900 1700
-F 0 "R41" H 6830 1654 50  0000 R CNN
-F 1 "R_0" H 6830 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 1700 50  0001 C CNN
-F 3 "" H 6900 1700 50  0001 C CNN
-	1    6900 1700
+P 6400 1300
+F 0 "R41" H 6330 1254 50  0000 R CNN
+F 1 "R_0" H 6330 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 1300 50  0001 C CNN
+F 3 "" H 6400 1300 50  0001 C CNN
+	1    6400 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R34
 U 1 1 5BE1F63D
-P 6650 1700
-F 0 "R34" H 6580 1654 50  0000 R CNN
-F 1 "R_0" H 6580 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 1700 50  0001 C CNN
-F 3 "" H 6650 1700 50  0001 C CNN
-	1    6650 1700
+P 6150 1300
+F 0 "R34" H 6080 1254 50  0000 R CNN
+F 1 "R_0" H 6080 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 1300 50  0001 C CNN
+F 3 "" H 6150 1300 50  0001 C CNN
+	1    6150 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R47
 U 1 1 5BE1F643
-P 7150 1700
-F 0 "R47" H 7080 1654 50  0000 R CNN
-F 1 "R_0" H 7080 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 1700 50  0001 C CNN
-F 3 "" H 7150 1700 50  0001 C CNN
-	1    7150 1700
+P 6650 1300
+F 0 "R47" H 6580 1254 50  0000 R CNN
+F 1 "R_0" H 6580 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 1300 50  0001 C CNN
+F 3 "" H 6650 1300 50  0001 C CNN
+	1    6650 1300
 	-1   0    0    1   
 $EndComp
-Connection ~ 6650 1850
+Connection ~ 6150 1450
 Wire Wire Line
-	6650 1850 6900 1850
-Connection ~ 6900 1850
+	6150 1450 6400 1450
+Connection ~ 6400 1450
 Wire Wire Line
-	6900 1850 7150 1850
-Connection ~ 5550 1850
+	6400 1450 6650 1450
+Connection ~ 5050 1450
 Wire Wire Line
-	5550 1850 5800 1850
-Connection ~ 5300 1850
+	5050 1450 5300 1450
+Connection ~ 4800 1450
 Wire Wire Line
-	5300 1850 5550 1850
+	4800 1450 5050 1450
 $Comp
 L formula:R_0 R62
 U 1 1 5BE219C1
-P 8250 1700
-F 0 "R62" H 8180 1654 50  0000 R CNN
-F 1 "R_0" H 8180 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 1700 50  0001 C CNN
-F 3 "" H 8250 1700 50  0001 C CNN
-	1    8250 1700
+P 7750 1300
+F 0 "R62" H 7680 1254 50  0000 R CNN
+F 1 "R_0" H 7680 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 1300 50  0001 C CNN
+F 3 "" H 7750 1300 50  0001 C CNN
+	1    7750 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R55
 U 1 1 5BE219C7
-P 8000 1700
-F 0 "R55" H 7930 1654 50  0000 R CNN
-F 1 "R_0" H 7930 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 1700 50  0001 C CNN
-F 3 "" H 8000 1700 50  0001 C CNN
-	1    8000 1700
+P 7500 1300
+F 0 "R55" H 7430 1254 50  0000 R CNN
+F 1 "R_0" H 7430 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 1300 50  0001 C CNN
+F 3 "" H 7500 1300 50  0001 C CNN
+	1    7500 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:R_0 R69
 U 1 1 5BE219CD
-P 8500 1700
-F 0 "R69" H 8430 1654 50  0000 R CNN
-F 1 "R_0" H 8430 1745 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 1700 50  0001 C CNN
-F 3 "" H 8500 1700 50  0001 C CNN
-	1    8500 1700
+P 8000 1300
+F 0 "R69" H 7930 1254 50  0000 R CNN
+F 1 "R_0" H 7930 1345 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 1300 50  0001 C CNN
+F 3 "" H 8000 1300 50  0001 C CNN
+	1    8000 1300
 	-1   0    0    1   
 $EndComp
-Connection ~ 8000 1850
+Connection ~ 7500 1450
 Wire Wire Line
-	8000 1850 8250 1850
-Connection ~ 8250 1850
+	7500 1450 7750 1450
+Connection ~ 7750 1450
 Wire Wire Line
-	8250 1850 8500 1850
-Connection ~ 5550 2050
+	7750 1450 8000 1450
+Connection ~ 5050 1650
 Wire Wire Line
-	5550 2050 5800 2050
-Connection ~ 5300 2050
+	5050 1650 5300 1650
+Connection ~ 4800 1650
 Wire Wire Line
-	5300 2050 5550 2050
+	4800 1650 5050 1650
 $Comp
 L formula:R_0 R42
 U 1 1 5BE240CB
-P 6900 2200
-F 0 "R42" H 6830 2154 50  0000 R CNN
-F 1 "R_0" H 6830 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 2200 50  0001 C CNN
-F 3 "" H 6900 2200 50  0001 C CNN
-	1    6900 2200
+P 6400 1800
+F 0 "R42" H 6330 1754 50  0000 R CNN
+F 1 "R_0" H 6330 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 1800 50  0001 C CNN
+F 3 "" H 6400 1800 50  0001 C CNN
+	1    6400 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R48
 U 1 1 5BE240D1
-P 7150 2200
-F 0 "R48" H 7080 2154 50  0000 R CNN
-F 1 "R_0" H 7080 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 2200 50  0001 C CNN
-F 3 "" H 7150 2200 50  0001 C CNN
-	1    7150 2200
+P 6650 1800
+F 0 "R48" H 6580 1754 50  0000 R CNN
+F 1 "R_0" H 6580 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 1800 50  0001 C CNN
+F 3 "" H 6650 1800 50  0001 C CNN
+	1    6650 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R35
 U 1 1 5BE240D7
-P 6650 2200
-F 0 "R35" H 6580 2154 50  0000 R CNN
-F 1 "R_0" H 6580 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 2200 50  0001 C CNN
-F 3 "" H 6650 2200 50  0001 C CNN
-	1    6650 2200
+P 6150 1800
+F 0 "R35" H 6080 1754 50  0000 R CNN
+F 1 "R_0" H 6080 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 1800 50  0001 C CNN
+F 3 "" H 6150 1800 50  0001 C CNN
+	1    6150 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6650 2050
+Connection ~ 6150 1650
 Wire Wire Line
-	6650 2050 6900 2050
-Connection ~ 6900 2050
+	6150 1650 6400 1650
+Connection ~ 6400 1650
 Wire Wire Line
-	6900 2050 7150 2050
+	6400 1650 6650 1650
 $Comp
 L formula:R_0 R63
 U 1 1 5BE26A59
-P 8250 2200
-F 0 "R63" H 8180 2154 50  0000 R CNN
-F 1 "R_0" H 8180 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 2200 50  0001 C CNN
-F 3 "" H 8250 2200 50  0001 C CNN
-	1    8250 2200
+P 7750 1800
+F 0 "R63" H 7680 1754 50  0000 R CNN
+F 1 "R_0" H 7680 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 1800 50  0001 C CNN
+F 3 "" H 7750 1800 50  0001 C CNN
+	1    7750 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R70
 U 1 1 5BE26A5F
-P 8500 2200
-F 0 "R70" H 8430 2154 50  0000 R CNN
-F 1 "R_0" H 8430 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 2200 50  0001 C CNN
-F 3 "" H 8500 2200 50  0001 C CNN
-	1    8500 2200
+P 8000 1800
+F 0 "R70" H 7930 1754 50  0000 R CNN
+F 1 "R_0" H 7930 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 1800 50  0001 C CNN
+F 3 "" H 8000 1800 50  0001 C CNN
+	1    8000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R56
 U 1 1 5BE26A65
-P 8000 2200
-F 0 "R56" H 7930 2154 50  0000 R CNN
-F 1 "R_0" H 7930 2245 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 2200 50  0001 C CNN
-F 3 "" H 8000 2200 50  0001 C CNN
-	1    8000 2200
+P 7500 1800
+F 0 "R56" H 7430 1754 50  0000 R CNN
+F 1 "R_0" H 7430 1845 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 1800 50  0001 C CNN
+F 3 "" H 7500 1800 50  0001 C CNN
+	1    7500 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 2050
+Connection ~ 7500 1650
 Wire Wire Line
-	8000 2050 8250 2050
-Connection ~ 8250 2050
+	7500 1650 7750 1650
+Connection ~ 7750 1650
 Wire Wire Line
-	8250 2050 8500 2050
+	7750 1650 8000 1650
 $Comp
 L formula:R_0 R64
 U 1 1 5BE2A91E
-P 8250 2800
-F 0 "R64" H 8180 2754 50  0000 R CNN
-F 1 "R_0" H 8180 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 2800 50  0001 C CNN
-F 3 "" H 8250 2800 50  0001 C CNN
-	1    8250 2800
+P 7750 2400
+F 0 "R64" H 7680 2354 50  0000 R CNN
+F 1 "R_0" H 7680 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0001 C CNN
+	1    7750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R71
 U 1 1 5BE2A924
-P 8500 2800
-F 0 "R71" H 8430 2754 50  0000 R CNN
-F 1 "R_0" H 8430 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 2800 50  0001 C CNN
-F 3 "" H 8500 2800 50  0001 C CNN
-	1    8500 2800
+P 8000 2400
+F 0 "R71" H 7930 2354 50  0000 R CNN
+F 1 "R_0" H 7930 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 2400 50  0001 C CNN
+F 3 "" H 8000 2400 50  0001 C CNN
+	1    8000 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R57
 U 1 1 5BE2A92A
-P 8000 2800
-F 0 "R57" H 7930 2754 50  0000 R CNN
-F 1 "R_0" H 7930 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 2800 50  0001 C CNN
-F 3 "" H 8000 2800 50  0001 C CNN
-	1    8000 2800
+P 7500 2400
+F 0 "R57" H 7430 2354 50  0000 R CNN
+F 1 "R_0" H 7430 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 2400 50  0001 C CNN
+F 3 "" H 7500 2400 50  0001 C CNN
+	1    7500 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 2950
+Connection ~ 7500 2550
 Wire Wire Line
-	8000 2950 8250 2950
-Connection ~ 8250 2950
+	7500 2550 7750 2550
+Connection ~ 7750 2550
 Wire Wire Line
-	8250 2950 8500 2950
+	7750 2550 8000 2550
 $Comp
 L formula:R_0 R65
 U 1 1 5BE2D66D
-P 8250 3300
-F 0 "R65" H 8180 3254 50  0000 R CNN
-F 1 "R_0" H 8180 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 3300 50  0001 C CNN
-F 3 "" H 8250 3300 50  0001 C CNN
-	1    8250 3300
+P 7750 2900
+F 0 "R65" H 7680 2854 50  0000 R CNN
+F 1 "R_0" H 7680 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 2900 50  0001 C CNN
+F 3 "" H 7750 2900 50  0001 C CNN
+	1    7750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R72
 U 1 1 5BE2D673
-P 8500 3300
-F 0 "R72" H 8430 3254 50  0000 R CNN
-F 1 "R_0" H 8430 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 3300 50  0001 C CNN
-F 3 "" H 8500 3300 50  0001 C CNN
-	1    8500 3300
+P 8000 2900
+F 0 "R72" H 7930 2854 50  0000 R CNN
+F 1 "R_0" H 7930 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 2900 50  0001 C CNN
+F 3 "" H 8000 2900 50  0001 C CNN
+	1    8000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R58
 U 1 1 5BE2D679
-P 8000 3300
-F 0 "R58" H 7930 3254 50  0000 R CNN
-F 1 "R_0" H 7930 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 3300 50  0001 C CNN
-F 3 "" H 8000 3300 50  0001 C CNN
-	1    8000 3300
+P 7500 2900
+F 0 "R58" H 7430 2854 50  0000 R CNN
+F 1 "R_0" H 7430 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 3150
+Connection ~ 7500 2750
 Wire Wire Line
-	8000 3150 8250 3150
-Connection ~ 8250 3150
+	7500 2750 7750 2750
+Connection ~ 7750 2750
 Wire Wire Line
-	8250 3150 8500 3150
+	7750 2750 8000 2750
 $Comp
 L formula:R_0 R44
 U 1 1 5BE334CE
-P 6900 3300
-F 0 "R44" H 6830 3254 50  0000 R CNN
-F 1 "R_0" H 6830 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 3300 50  0001 C CNN
-F 3 "" H 6900 3300 50  0001 C CNN
-	1    6900 3300
+P 6400 2900
+F 0 "R44" H 6330 2854 50  0000 R CNN
+F 1 "R_0" H 6330 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R50
 U 1 1 5BE334D4
-P 7150 3300
-F 0 "R50" H 7080 3254 50  0000 R CNN
-F 1 "R_0" H 7080 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 3300 50  0001 C CNN
-F 3 "" H 7150 3300 50  0001 C CNN
-	1    7150 3300
+P 6650 2900
+F 0 "R50" H 6580 2854 50  0000 R CNN
+F 1 "R_0" H 6580 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 2900 50  0001 C CNN
+F 3 "" H 6650 2900 50  0001 C CNN
+	1    6650 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R37
 U 1 1 5BE334DA
-P 6650 3300
-F 0 "R37" H 6580 3254 50  0000 R CNN
-F 1 "R_0" H 6580 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 3300 50  0001 C CNN
-F 3 "" H 6650 3300 50  0001 C CNN
-	1    6650 3300
+P 6150 2900
+F 0 "R37" H 6080 2854 50  0000 R CNN
+F 1 "R_0" H 6080 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6650 3150
+Connection ~ 6150 2750
 Wire Wire Line
-	6650 3150 6900 3150
-Connection ~ 6900 3150
+	6150 2750 6400 2750
+Connection ~ 6400 2750
 Wire Wire Line
-	6900 3150 7150 3150
+	6400 2750 6650 2750
 $Comp
 L formula:R_0 R43
 U 1 1 5BE365CF
-P 6900 2800
-F 0 "R43" H 6830 2754 50  0000 R CNN
-F 1 "R_0" H 6830 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 2800 50  0001 C CNN
-F 3 "" H 6900 2800 50  0001 C CNN
-	1    6900 2800
+P 6400 2400
+F 0 "R43" H 6330 2354 50  0000 R CNN
+F 1 "R_0" H 6330 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 2400 50  0001 C CNN
+F 3 "" H 6400 2400 50  0001 C CNN
+	1    6400 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R49
 U 1 1 5BE365D5
-P 7150 2800
-F 0 "R49" H 7080 2754 50  0000 R CNN
-F 1 "R_0" H 7080 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 2800 50  0001 C CNN
-F 3 "" H 7150 2800 50  0001 C CNN
-	1    7150 2800
+P 6650 2400
+F 0 "R49" H 6580 2354 50  0000 R CNN
+F 1 "R_0" H 6580 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 2400 50  0001 C CNN
+F 3 "" H 6650 2400 50  0001 C CNN
+	1    6650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R36
 U 1 1 5BE365DB
-P 6650 2800
-F 0 "R36" H 6580 2754 50  0000 R CNN
-F 1 "R_0" H 6580 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 2800 50  0001 C CNN
-F 3 "" H 6650 2800 50  0001 C CNN
-	1    6650 2800
+P 6150 2400
+F 0 "R36" H 6080 2354 50  0000 R CNN
+F 1 "R_0" H 6080 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 2400 50  0001 C CNN
+F 3 "" H 6150 2400 50  0001 C CNN
+	1    6150 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6650 2950
+Connection ~ 6150 2550
 Wire Wire Line
-	6650 2950 6900 2950
-Connection ~ 6900 2950
+	6150 2550 6400 2550
+Connection ~ 6400 2550
 Wire Wire Line
-	6900 2950 7150 2950
+	6400 2550 6650 2550
 $Comp
 L formula:R_0 R21
 U 1 1 5BE399F1
-P 5550 2800
-F 0 "R21" H 5480 2754 50  0000 R CNN
-F 1 "R_0" H 5480 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 2800 50  0001 C CNN
-F 3 "" H 5550 2800 50  0001 C CNN
-	1    5550 2800
+P 5050 2400
+F 0 "R21" H 4980 2354 50  0000 R CNN
+F 1 "R_0" H 4980 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 2400 50  0001 C CNN
+F 3 "" H 5050 2400 50  0001 C CNN
+	1    5050 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R28
 U 1 1 5BE399F7
-P 5800 2800
-F 0 "R28" H 5730 2754 50  0000 R CNN
-F 1 "R_0" H 5730 2845 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 2800 50  0001 C CNN
-F 3 "" H 5800 2800 50  0001 C CNN
-	1    5800 2800
+P 5300 2400
+F 0 "R28" H 5230 2354 50  0000 R CNN
+F 1 "R_0" H 5230 2445 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 2400 50  0001 C CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+	1    5300 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 5550 2950
+Connection ~ 5050 2550
 Wire Wire Line
-	5550 2950 5800 2950
+	5050 2550 5300 2550
 Wire Wire Line
-	5150 2950 5550 2950
+	4650 2550 5050 2550
 $Comp
 L formula:R_0 R22
 U 1 1 5BE3D0A5
-P 5550 3300
-F 0 "R22" H 5480 3254 50  0000 R CNN
-F 1 "R_0" H 5480 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 3300 50  0001 C CNN
-F 3 "" H 5550 3300 50  0001 C CNN
-	1    5550 3300
+P 5050 2900
+F 0 "R22" H 4980 2854 50  0000 R CNN
+F 1 "R_0" H 4980 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 2900 50  0001 C CNN
+F 3 "" H 5050 2900 50  0001 C CNN
+	1    5050 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R29
 U 1 1 5BE3D0AB
-P 5800 3300
-F 0 "R29" H 5730 3254 50  0000 R CNN
-F 1 "R_0" H 5730 3345 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 3300 50  0001 C CNN
-F 3 "" H 5800 3300 50  0001 C CNN
-	1    5800 3300
+P 5300 2900
+F 0 "R29" H 5230 2854 50  0000 R CNN
+F 1 "R_0" H 5230 2945 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 2900 50  0001 C CNN
+F 3 "" H 5300 2900 50  0001 C CNN
+	1    5300 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5550 3150
+Connection ~ 5050 2750
 Wire Wire Line
-	5550 3150 5800 3150
+	5050 2750 5300 2750
 $Comp
 L formula:R_0 R23
 U 1 1 5BE4079D
-P 5550 3850
-F 0 "R23" H 5480 3804 50  0000 R CNN
-F 1 "R_0" H 5480 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 3850 50  0001 C CNN
-F 3 "" H 5550 3850 50  0001 C CNN
-	1    5550 3850
+P 5050 3450
+F 0 "R23" H 4980 3404 50  0000 R CNN
+F 1 "R_0" H 4980 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 3450 50  0001 C CNN
+F 3 "" H 5050 3450 50  0001 C CNN
+	1    5050 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R30
 U 1 1 5BE407A3
-P 5800 3850
-F 0 "R30" H 5730 3804 50  0000 R CNN
-F 1 "R_0" H 5730 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 3850 50  0001 C CNN
-F 3 "" H 5800 3850 50  0001 C CNN
-	1    5800 3850
+P 5300 3450
+F 0 "R30" H 5230 3404 50  0000 R CNN
+F 1 "R_0" H 5230 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 3450 50  0001 C CNN
+F 3 "" H 5300 3450 50  0001 C CNN
+	1    5300 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R17
 U 1 1 5BE407A9
-P 5300 3850
-F 0 "R17" H 5230 3804 50  0000 R CNN
-F 1 "R_0" H 5230 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5230 3850 50  0001 C CNN
-F 3 "" H 5300 3850 50  0001 C CNN
-	1    5300 3850
+P 4800 3450
+F 0 "R17" H 4730 3404 50  0000 R CNN
+F 1 "R_0" H 4730 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4730 3450 50  0001 C CNN
+F 3 "" H 4800 3450 50  0001 C CNN
+	1    4800 3450
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 4000
+Connection ~ 4800 3600
 Wire Wire Line
-	5300 4000 5550 4000
-Connection ~ 5550 4000
+	4800 3600 5050 3600
+Connection ~ 5050 3600
 Wire Wire Line
-	5550 4000 5800 4000
+	5050 3600 5300 3600
 $Comp
 L formula:R_0 R24
 U 1 1 5BE44171
-P 5550 4350
-F 0 "R24" H 5480 4304 50  0000 R CNN
-F 1 "R_0" H 5480 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5480 4350 50  0001 C CNN
-F 3 "" H 5550 4350 50  0001 C CNN
-	1    5550 4350
+P 5050 3950
+F 0 "R24" H 4980 3904 50  0000 R CNN
+F 1 "R_0" H 4980 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4980 3950 50  0001 C CNN
+F 3 "" H 5050 3950 50  0001 C CNN
+	1    5050 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R31
 U 1 1 5BE44177
-P 5800 4350
-F 0 "R31" H 5730 4304 50  0000 R CNN
-F 1 "R_0" H 5730 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5730 4350 50  0001 C CNN
-F 3 "" H 5800 4350 50  0001 C CNN
-	1    5800 4350
+P 5300 3950
+F 0 "R31" H 5230 3904 50  0000 R CNN
+F 1 "R_0" H 5230 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 5230 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	1    5300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R18
 U 1 1 5BE4417D
-P 5300 4350
-F 0 "R18" H 5230 4304 50  0000 R CNN
-F 1 "R_0" H 5230 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 5230 4350 50  0001 C CNN
-F 3 "" H 5300 4350 50  0001 C CNN
-	1    5300 4350
+P 4800 3950
+F 0 "R18" H 4730 3904 50  0000 R CNN
+F 1 "R_0" H 4730 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 4730 3950 50  0001 C CNN
+F 3 "" H 4800 3950 50  0001 C CNN
+	1    4800 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 4200
+Connection ~ 4800 3800
 Wire Wire Line
-	5300 4200 5550 4200
-Connection ~ 5550 4200
+	4800 3800 5050 3800
+Connection ~ 5050 3800
 Wire Wire Line
-	5550 4200 5800 4200
+	5050 3800 5300 3800
 $Comp
 L formula:R_0 R45
 U 1 1 5BE47E42
-P 6900 3850
-F 0 "R45" H 6830 3804 50  0000 R CNN
-F 1 "R_0" H 6830 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 3850 50  0001 C CNN
-F 3 "" H 6900 3850 50  0001 C CNN
-	1    6900 3850
+P 6400 3450
+F 0 "R45" H 6330 3404 50  0000 R CNN
+F 1 "R_0" H 6330 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 3450 50  0001 C CNN
+F 3 "" H 6400 3450 50  0001 C CNN
+	1    6400 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R51
 U 1 1 5BE47E48
-P 7150 3850
-F 0 "R51" H 7080 3804 50  0000 R CNN
-F 1 "R_0" H 7080 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 3850 50  0001 C CNN
-F 3 "" H 7150 3850 50  0001 C CNN
-	1    7150 3850
+P 6650 3450
+F 0 "R51" H 6580 3404 50  0000 R CNN
+F 1 "R_0" H 6580 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 3450 50  0001 C CNN
+F 3 "" H 6650 3450 50  0001 C CNN
+	1    6650 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R38
 U 1 1 5BE47E4E
-P 6650 3850
-F 0 "R38" H 6580 3804 50  0000 R CNN
-F 1 "R_0" H 6580 3895 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 3850 50  0001 C CNN
-F 3 "" H 6650 3850 50  0001 C CNN
-	1    6650 3850
+P 6150 3450
+F 0 "R38" H 6080 3404 50  0000 R CNN
+F 1 "R_0" H 6080 3495 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 3450 50  0001 C CNN
+F 3 "" H 6150 3450 50  0001 C CNN
+	1    6150 3450
 	1    0    0    -1  
 $EndComp
-Connection ~ 6650 4000
+Connection ~ 6150 3600
 Wire Wire Line
-	6650 4000 6900 4000
-Connection ~ 6900 4000
+	6150 3600 6400 3600
+Connection ~ 6400 3600
 Wire Wire Line
-	6900 4000 7150 4000
+	6400 3600 6650 3600
 $Comp
 L formula:R_0 R66
 U 1 1 5BE4BDE5
-P 8250 3900
-F 0 "R66" H 8180 3854 50  0000 R CNN
-F 1 "R_0" H 8180 3945 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 3900 50  0001 C CNN
-F 3 "" H 8250 3900 50  0001 C CNN
-	1    8250 3900
+P 7750 3500
+F 0 "R66" H 7680 3454 50  0000 R CNN
+F 1 "R_0" H 7680 3545 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 3500 50  0001 C CNN
+F 3 "" H 7750 3500 50  0001 C CNN
+	1    7750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R73
 U 1 1 5BE4BDEB
-P 8500 3900
-F 0 "R73" H 8430 3854 50  0000 R CNN
-F 1 "R_0" H 8430 3945 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 3900 50  0001 C CNN
-F 3 "" H 8500 3900 50  0001 C CNN
-	1    8500 3900
+P 8000 3500
+F 0 "R73" H 7930 3454 50  0000 R CNN
+F 1 "R_0" H 7930 3545 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 3500 50  0001 C CNN
+F 3 "" H 8000 3500 50  0001 C CNN
+	1    8000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R59
 U 1 1 5BE4BDF1
-P 8000 3900
-F 0 "R59" H 7930 3854 50  0000 R CNN
-F 1 "R_0" H 7930 3945 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 3900 50  0001 C CNN
-F 3 "" H 8000 3900 50  0001 C CNN
-	1    8000 3900
+P 7500 3500
+F 0 "R59" H 7430 3454 50  0000 R CNN
+F 1 "R_0" H 7430 3545 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 3500 50  0001 C CNN
+F 3 "" H 7500 3500 50  0001 C CNN
+	1    7500 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 4050
+Connection ~ 7500 3650
 Wire Wire Line
-	8000 4050 8250 4050
-Connection ~ 8250 4050
+	7500 3650 7750 3650
+Connection ~ 7750 3650
 Wire Wire Line
-	8250 4050 8500 4050
+	7750 3650 8000 3650
 $Comp
 L formula:R_0 R67
 U 1 1 5BE4FFA9
-P 8250 4400
-F 0 "R67" H 8180 4354 50  0000 R CNN
-F 1 "R_0" H 8180 4445 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8180 4400 50  0001 C CNN
-F 3 "" H 8250 4400 50  0001 C CNN
-	1    8250 4400
+P 7750 4000
+F 0 "R67" H 7680 3954 50  0000 R CNN
+F 1 "R_0" H 7680 4045 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7680 4000 50  0001 C CNN
+F 3 "" H 7750 4000 50  0001 C CNN
+	1    7750 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R74
 U 1 1 5BE4FFAF
-P 8500 4400
-F 0 "R74" H 8430 4354 50  0000 R CNN
-F 1 "R_0" H 8430 4445 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 8430 4400 50  0001 C CNN
-F 3 "" H 8500 4400 50  0001 C CNN
-	1    8500 4400
+P 8000 4000
+F 0 "R74" H 7930 3954 50  0000 R CNN
+F 1 "R_0" H 7930 4045 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7930 4000 50  0001 C CNN
+F 3 "" H 8000 4000 50  0001 C CNN
+	1    8000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R60
 U 1 1 5BE4FFB5
-P 8000 4400
-F 0 "R60" H 7930 4354 50  0000 R CNN
-F 1 "R_0" H 7930 4445 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7930 4400 50  0001 C CNN
-F 3 "" H 8000 4400 50  0001 C CNN
-	1    8000 4400
+P 7500 4000
+F 0 "R60" H 7430 3954 50  0000 R CNN
+F 1 "R_0" H 7430 4045 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 7430 4000 50  0001 C CNN
+F 3 "" H 7500 4000 50  0001 C CNN
+	1    7500 4000
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 4250
+Connection ~ 7500 3850
 Wire Wire Line
-	8000 4250 8250 4250
-Connection ~ 8250 4250
+	7500 3850 7750 3850
+Connection ~ 7750 3850
 Wire Wire Line
-	8250 4250 8500 4250
+	7750 3850 8000 3850
 $Comp
 L formula:R_0 R46
 U 1 1 5BE54411
-P 6900 4350
-F 0 "R46" H 6830 4304 50  0000 R CNN
-F 1 "R_0" H 6830 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6830 4350 50  0001 C CNN
-F 3 "" H 6900 4350 50  0001 C CNN
-	1    6900 4350
+P 6400 3950
+F 0 "R46" H 6330 3904 50  0000 R CNN
+F 1 "R_0" H 6330 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6330 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+	1    6400 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R52
 U 1 1 5BE54417
-P 7150 4350
-F 0 "R52" H 7080 4304 50  0000 R CNN
-F 1 "R_0" H 7080 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 7080 4350 50  0001 C CNN
-F 3 "" H 7150 4350 50  0001 C CNN
-	1    7150 4350
+P 6650 3950
+F 0 "R52" H 6580 3904 50  0000 R CNN
+F 1 "R_0" H 6580 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6580 3950 50  0001 C CNN
+F 3 "" H 6650 3950 50  0001 C CNN
+	1    6650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_0 R39
 U 1 1 5BE5441D
-P 6650 4350
-F 0 "R39" H 6580 4304 50  0000 R CNN
-F 1 "R_0" H 6580 4395 50  0000 R CNN
-F 2 "enigmaprints:R_0805_OEM" V 6580 4350 50  0001 C CNN
-F 3 "" H 6650 4350 50  0001 C CNN
-	1    6650 4350
+P 6150 3950
+F 0 "R39" H 6080 3904 50  0000 R CNN
+F 1 "R_0" H 6080 3995 50  0000 R CNN
+F 2 "enigmaprints:R_0805_OEM" V 6080 3950 50  0001 C CNN
+F 3 "" H 6150 3950 50  0001 C CNN
+	1    6150 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6650 4200
+Connection ~ 6150 3800
 Wire Wire Line
-	6650 4200 6900 4200
-Connection ~ 6900 4200
+	6150 3800 6400 3800
+Connection ~ 6400 3800
 Wire Wire Line
-	6900 4200 7150 4200
+	6400 3800 6650 3800
+$Comp
+L formula:R_10K R?
+U 1 1 5BE1FE40
+P 5100 4700
+F 0 "R?" H 5170 4746 50  0000 L CNN
+F 1 "R_10K" H 5170 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5030 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5180 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5100 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5100 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 5100 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5580 5100 60  0001 C CNN "PurchasingLink"
+	1    5100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4850 5100 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE3618D
+P 5100 4900
+F 0 "#PWR?" H 5100 4650 50  0001 C CNN
+F 1 "GND" H 5105 4727 50  0000 C CNN
+F 2 "" H 5100 4900 50  0001 C CNN
+F 3 "" H 5100 4900 50  0001 C CNN
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4550 5100 4500
+Text Label 5100 4500 2    50   ~ 0
+S1
+$Comp
+L formula:R_10K R?
+U 1 1 5BE48E8B
+P 5500 4700
+F 0 "R?" H 5570 4746 50  0000 L CNN
+F 1 "R_10K" H 5570 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5430 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5580 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5500 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5500 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 5500 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5980 5100 60  0001 C CNN "PurchasingLink"
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4850 5500 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE48E92
+P 5500 4900
+F 0 "#PWR?" H 5500 4650 50  0001 C CNN
+F 1 "GND" H 5505 4727 50  0000 C CNN
+F 2 "" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4550 5500 4500
+Text Label 5500 4500 2    50   ~ 0
+S2
+$Comp
+L formula:R_10K R?
+U 1 1 5BE4D723
+P 5850 4700
+F 0 "R?" H 5920 4746 50  0000 L CNN
+F 1 "R_10K" H 5920 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5780 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5930 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5850 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5850 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 5850 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6330 5100 60  0001 C CNN "PurchasingLink"
+	1    5850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4850 5850 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE4D72A
+P 5850 4900
+F 0 "#PWR?" H 5850 4650 50  0001 C CNN
+F 1 "GND" H 5855 4727 50  0000 C CNN
+F 2 "" H 5850 4900 50  0001 C CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+	1    5850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4550 5850 4500
+Text Label 5850 4500 2    50   ~ 0
+S3
+$Comp
+L formula:R_10K R?
+U 1 1 5BE4D736
+P 6250 4700
+F 0 "R?" H 6320 4746 50  0000 L CNN
+F 1 "R_10K" H 6320 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6180 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6330 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6250 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6250 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 6250 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6730 5100 60  0001 C CNN "PurchasingLink"
+	1    6250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4850 6250 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE4D73D
+P 6250 4900
+F 0 "#PWR?" H 6250 4650 50  0001 C CNN
+F 1 "GND" H 6255 4727 50  0000 C CNN
+F 2 "" H 6250 4900 50  0001 C CNN
+F 3 "" H 6250 4900 50  0001 C CNN
+	1    6250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4550 6250 4500
+Text Label 6250 4500 2    50   ~ 0
+S4
+$Comp
+L formula:R_10K R?
+U 1 1 5BE521DC
+P 5100 5400
+F 0 "R?" H 5170 5446 50  0000 L CNN
+F 1 "R_10K" H 5170 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5030 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5180 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5100 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5100 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 5100 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5580 5800 60  0001 C CNN "PurchasingLink"
+	1    5100 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5550 5100 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE521E3
+P 5100 5600
+F 0 "#PWR?" H 5100 5350 50  0001 C CNN
+F 1 "GND" H 5105 5427 50  0000 C CNN
+F 2 "" H 5100 5600 50  0001 C CNN
+F 3 "" H 5100 5600 50  0001 C CNN
+	1    5100 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5250 5100 5200
+Text Label 5100 5200 2    50   ~ 0
+S10
+$Comp
+L formula:R_10K R?
+U 1 1 5BE521EF
+P 5500 5400
+F 0 "R?" H 5570 5446 50  0000 L CNN
+F 1 "R_10K" H 5570 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5430 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5580 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5500 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5500 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 5500 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5980 5800 60  0001 C CNN "PurchasingLink"
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5550 5500 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE521F6
+P 5500 5600
+F 0 "#PWR?" H 5500 5350 50  0001 C CNN
+F 1 "GND" H 5505 5427 50  0000 C CNN
+F 2 "" H 5500 5600 50  0001 C CNN
+F 3 "" H 5500 5600 50  0001 C CNN
+	1    5500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5250 5500 5200
+Text Label 5500 5200 2    50   ~ 0
+S11
+$Comp
+L formula:R_10K R?
+U 1 1 5BE52202
+P 5850 5400
+F 0 "R?" H 5920 5446 50  0000 L CNN
+F 1 "R_10K" H 5920 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5780 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5930 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5850 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5850 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 5850 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6330 5800 60  0001 C CNN "PurchasingLink"
+	1    5850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5550 5850 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE52209
+P 5850 5600
+F 0 "#PWR?" H 5850 5350 50  0001 C CNN
+F 1 "GND" H 5855 5427 50  0000 C CNN
+F 2 "" H 5850 5600 50  0001 C CNN
+F 3 "" H 5850 5600 50  0001 C CNN
+	1    5850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5250 5850 5200
+Text Label 5850 5200 2    50   ~ 0
+S12
+$Comp
+L formula:R_10K R?
+U 1 1 5BE52215
+P 6250 5400
+F 0 "R?" H 6320 5446 50  0000 L CNN
+F 1 "R_10K" H 6320 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6180 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6330 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6250 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6250 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 6250 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6730 5800 60  0001 C CNN "PurchasingLink"
+	1    6250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5550 6250 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5221C
+P 6250 5600
+F 0 "#PWR?" H 6250 5350 50  0001 C CNN
+F 1 "GND" H 6255 5427 50  0000 C CNN
+F 2 "" H 6250 5600 50  0001 C CNN
+F 3 "" H 6250 5600 50  0001 C CNN
+	1    6250 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5250 6250 5200
+Text Label 6250 5200 2    50   ~ 0
+S13
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5728D
+P 6650 4700
+F 0 "R?" H 6720 4746 50  0000 L CNN
+F 1 "R_10K" H 6720 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6580 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6730 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6650 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6650 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 6650 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7130 5100 60  0001 C CNN "PurchasingLink"
+	1    6650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4850 6650 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE57294
+P 6650 4900
+F 0 "#PWR?" H 6650 4650 50  0001 C CNN
+F 1 "GND" H 6655 4727 50  0000 C CNN
+F 2 "" H 6650 4900 50  0001 C CNN
+F 3 "" H 6650 4900 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4550 6650 4500
+Text Label 6650 4500 2    50   ~ 0
+S5
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572A0
+P 7050 4700
+F 0 "R?" H 7120 4746 50  0000 L CNN
+F 1 "R_10K" H 7120 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6980 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7130 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7050 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7050 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 7050 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7530 5100 60  0001 C CNN "PurchasingLink"
+	1    7050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4850 7050 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE572A7
+P 7050 4900
+F 0 "#PWR?" H 7050 4650 50  0001 C CNN
+F 1 "GND" H 7055 4727 50  0000 C CNN
+F 2 "" H 7050 4900 50  0001 C CNN
+F 3 "" H 7050 4900 50  0001 C CNN
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4550 7050 4500
+Text Label 7050 4500 2    50   ~ 0
+S6
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572B3
+P 7400 4700
+F 0 "R?" H 7470 4746 50  0000 L CNN
+F 1 "R_10K" H 7470 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7330 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7480 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7400 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7400 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 7400 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7880 5100 60  0001 C CNN "PurchasingLink"
+	1    7400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4850 7400 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE572BA
+P 7400 4900
+F 0 "#PWR?" H 7400 4650 50  0001 C CNN
+F 1 "GND" H 7405 4727 50  0000 C CNN
+F 2 "" H 7400 4900 50  0001 C CNN
+F 3 "" H 7400 4900 50  0001 C CNN
+	1    7400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4550 7400 4500
+Text Label 7400 4500 2    50   ~ 0
+S7
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572C6
+P 7800 4700
+F 0 "R?" H 7870 4746 50  0000 L CNN
+F 1 "R_10K" H 7870 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7730 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7880 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7800 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7800 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 7800 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 8280 5100 60  0001 C CNN "PurchasingLink"
+	1    7800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4850 7800 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE572CD
+P 7800 4900
+F 0 "#PWR?" H 7800 4650 50  0001 C CNN
+F 1 "GND" H 7805 4727 50  0000 C CNN
+F 2 "" H 7800 4900 50  0001 C CNN
+F 3 "" H 7800 4900 50  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4550 7800 4500
+Text Label 7800 4500 2    50   ~ 0
+S8
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572D9
+P 6650 5400
+F 0 "R?" H 6720 5446 50  0000 L CNN
+F 1 "R_10K" H 6720 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6580 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6730 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6650 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6650 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 6650 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7130 5800 60  0001 C CNN "PurchasingLink"
+	1    6650 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5550 6650 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE572E0
+P 6650 5600
+F 0 "#PWR?" H 6650 5350 50  0001 C CNN
+F 1 "GND" H 6655 5427 50  0000 C CNN
+F 2 "" H 6650 5600 50  0001 C CNN
+F 3 "" H 6650 5600 50  0001 C CNN
+	1    6650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5250 6650 5200
+Text Label 6650 5200 2    50   ~ 0
+S14
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572EC
+P 7050 5400
+F 0 "R?" H 7120 5446 50  0000 L CNN
+F 1 "R_10K" H 7120 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6980 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7130 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7050 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7050 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 7050 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7530 5800 60  0001 C CNN "PurchasingLink"
+	1    7050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5550 7050 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE572F3
+P 7050 5600
+F 0 "#PWR?" H 7050 5350 50  0001 C CNN
+F 1 "GND" H 7055 5427 50  0000 C CNN
+F 2 "" H 7050 5600 50  0001 C CNN
+F 3 "" H 7050 5600 50  0001 C CNN
+	1    7050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5250 7050 5200
+Text Label 7050 5200 2    50   ~ 0
+S15
+$Comp
+L formula:R_10K R?
+U 1 1 5BE572FF
+P 7400 5400
+F 0 "R?" H 7470 5446 50  0000 L CNN
+F 1 "R_10K" H 7470 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7330 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7480 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7400 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7400 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 7400 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7880 5800 60  0001 C CNN "PurchasingLink"
+	1    7400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5550 7400 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE57306
+P 7400 5600
+F 0 "#PWR?" H 7400 5350 50  0001 C CNN
+F 1 "GND" H 7405 5427 50  0000 C CNN
+F 2 "" H 7400 5600 50  0001 C CNN
+F 3 "" H 7400 5600 50  0001 C CNN
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5250 7400 5200
+Text Label 7400 5200 2    50   ~ 0
+S16
+$Comp
+L formula:R_10K R?
+U 1 1 5BE57312
+P 7800 5400
+F 0 "R?" H 7870 5446 50  0000 L CNN
+F 1 "R_10K" H 7870 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7730 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7880 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7800 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7800 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 7800 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 8280 5800 60  0001 C CNN "PurchasingLink"
+	1    7800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5550 7800 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE57319
+P 7800 5600
+F 0 "#PWR?" H 7800 5350 50  0001 C CNN
+F 1 "GND" H 7805 5427 50  0000 C CNN
+F 2 "" H 7800 5600 50  0001 C CNN
+F 3 "" H 7800 5600 50  0001 C CNN
+	1    7800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5250 7800 5200
+Text Label 7800 5200 2    50   ~ 0
+S17
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CBF4
+P 5100 6100
+F 0 "R?" H 5170 6146 50  0000 L CNN
+F 1 "R_10K" H 5170 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5030 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5180 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5100 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5100 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 5100 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5580 6500 60  0001 C CNN "PurchasingLink"
+	1    5100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6250 5100 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CBFB
+P 5100 6300
+F 0 "#PWR?" H 5100 6050 50  0001 C CNN
+F 1 "GND" H 5105 6127 50  0000 C CNN
+F 2 "" H 5100 6300 50  0001 C CNN
+F 3 "" H 5100 6300 50  0001 C CNN
+	1    5100 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5950 5100 5900
+Text Label 5100 5900 2    50   ~ 0
+S19
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC07
+P 5500 6100
+F 0 "R?" H 5570 6146 50  0000 L CNN
+F 1 "R_10K" H 5570 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5430 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5580 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5500 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5500 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 5500 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5980 6500 60  0001 C CNN "PurchasingLink"
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6250 5500 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC0E
+P 5500 6300
+F 0 "#PWR?" H 5500 6050 50  0001 C CNN
+F 1 "GND" H 5505 6127 50  0000 C CNN
+F 2 "" H 5500 6300 50  0001 C CNN
+F 3 "" H 5500 6300 50  0001 C CNN
+	1    5500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5950 5500 5900
+Text Label 5500 5900 2    50   ~ 0
+S20
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC1A
+P 5850 6100
+F 0 "R?" H 5920 6146 50  0000 L CNN
+F 1 "R_10K" H 5920 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 5780 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5930 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5850 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5850 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 5850 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6330 6500 60  0001 C CNN "PurchasingLink"
+	1    5850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 6250 5850 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC21
+P 5850 6300
+F 0 "#PWR?" H 5850 6050 50  0001 C CNN
+F 1 "GND" H 5855 6127 50  0000 C CNN
+F 2 "" H 5850 6300 50  0001 C CNN
+F 3 "" H 5850 6300 50  0001 C CNN
+	1    5850 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5950 5850 5900
+Text Label 5850 5900 2    50   ~ 0
+S21
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC2D
+P 6250 6100
+F 0 "R?" H 6320 6146 50  0000 L CNN
+F 1 "R_10K" H 6320 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6180 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6330 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6250 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6250 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 6250 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6730 6500 60  0001 C CNN "PurchasingLink"
+	1    6250 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 6250 6250 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC34
+P 6250 6300
+F 0 "#PWR?" H 6250 6050 50  0001 C CNN
+F 1 "GND" H 6255 6127 50  0000 C CNN
+F 2 "" H 6250 6300 50  0001 C CNN
+F 3 "" H 6250 6300 50  0001 C CNN
+	1    6250 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5950 6250 5900
+Text Label 6250 5900 2    50   ~ 0
+S22
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC40
+P 6650 6100
+F 0 "R?" H 6720 6146 50  0000 L CNN
+F 1 "R_10K" H 6720 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6580 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6730 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 6650 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6650 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 6650 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7130 6500 60  0001 C CNN "PurchasingLink"
+	1    6650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6250 6650 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC47
+P 6650 6300
+F 0 "#PWR?" H 6650 6050 50  0001 C CNN
+F 1 "GND" H 6655 6127 50  0000 C CNN
+F 2 "" H 6650 6300 50  0001 C CNN
+F 3 "" H 6650 6300 50  0001 C CNN
+	1    6650 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5950 6650 5900
+Text Label 6650 5900 2    50   ~ 0
+S23
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC53
+P 7050 6100
+F 0 "R?" H 7120 6146 50  0000 L CNN
+F 1 "R_10K" H 7120 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 6980 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7130 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7050 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7050 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 7050 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7530 6500 60  0001 C CNN "PurchasingLink"
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6250 7050 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC5A
+P 7050 6300
+F 0 "#PWR?" H 7050 6050 50  0001 C CNN
+F 1 "GND" H 7055 6127 50  0000 C CNN
+F 2 "" H 7050 6300 50  0001 C CNN
+F 3 "" H 7050 6300 50  0001 C CNN
+	1    7050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5950 7050 5900
+Text Label 7050 5900 2    50   ~ 0
+S24
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC66
+P 7400 6100
+F 0 "R?" H 7470 6146 50  0000 L CNN
+F 1 "R_10K" H 7470 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7330 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7480 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7400 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7400 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 7400 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7880 6500 60  0001 C CNN "PurchasingLink"
+	1    7400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 6250 7400 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC6D
+P 7400 6300
+F 0 "#PWR?" H 7400 6050 50  0001 C CNN
+F 1 "GND" H 7405 6127 50  0000 C CNN
+F 2 "" H 7400 6300 50  0001 C CNN
+F 3 "" H 7400 6300 50  0001 C CNN
+	1    7400 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5950 7400 5900
+Text Label 7400 5900 2    50   ~ 0
+S25
+$Comp
+L formula:R_10K R?
+U 1 1 5BE5CC79
+P 7800 6100
+F 0 "R?" H 7870 6146 50  0000 L CNN
+F 1 "R_10K" H 7870 6055 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 7730 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7880 6100 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 7800 6100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7800 6100 60  0001 C CNN "MFN"
+F 6 "Value" H 7800 6100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 8280 6500 60  0001 C CNN "PurchasingLink"
+	1    7800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6250 7800 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE5CC80
+P 7800 6300
+F 0 "#PWR?" H 7800 6050 50  0001 C CNN
+F 1 "GND" H 7805 6127 50  0000 C CNN
+F 2 "" H 7800 6300 50  0001 C CNN
+F 3 "" H 7800 6300 50  0001 C CNN
+	1    7800 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5950 7800 5900
+Text Label 7800 5900 2    50   ~ 0
+S26
+$Comp
+L formula:R_10K R?
+U 1 1 5BE6A410
+P 8200 4700
+F 0 "R?" H 8270 4746 50  0000 L CNN
+F 1 "R_10K" H 8270 4655 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 8130 4700 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8280 4700 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 8200 4700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8200 4700 60  0001 C CNN "MFN"
+F 6 "Value" H 8200 4700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 8680 5100 60  0001 C CNN "PurchasingLink"
+	1    8200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4850 8200 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE6A417
+P 8200 4900
+F 0 "#PWR?" H 8200 4650 50  0001 C CNN
+F 1 "GND" H 8205 4727 50  0000 C CNN
+F 2 "" H 8200 4900 50  0001 C CNN
+F 3 "" H 8200 4900 50  0001 C CNN
+	1    8200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4550 8200 4500
+Text Label 8200 4500 2    50   ~ 0
+S9
+$Comp
+L formula:R_10K R?
+U 1 1 5BE6A423
+P 8200 5400
+F 0 "R?" H 8270 5446 50  0000 L CNN
+F 1 "R_10K" H 8270 5355 50  0000 L CNN
+F 2 "enigmaprints:R_0805_OEM" H 8130 5400 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8280 5400 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 8200 5400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8200 5400 60  0001 C CNN "MFN"
+F 6 "Value" H 8200 5400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 8680 5800 60  0001 C CNN "PurchasingLink"
+	1    8200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5550 8200 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE6A42A
+P 8200 5600
+F 0 "#PWR?" H 8200 5350 50  0001 C CNN
+F 1 "GND" H 8205 5427 50  0000 C CNN
+F 2 "" H 8200 5600 50  0001 C CNN
+F 3 "" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5250 8200 5200
+Text Label 8200 5200 2    50   ~ 0
+S18
 $EndSCHEMATC
