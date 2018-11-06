@@ -647,9 +647,9 @@ $EndComp
 Wire Wire Line
 	550  900  750  900 
 Text Label 650  900  0    50   ~ 0
-A
+Q
 Text Label 1100 900  0    50   ~ 0
-B
+R
 Wire Wire Line
 	1050 900  1150 900 
 Wire Wire Line
@@ -697,53 +697,53 @@ Wire Wire Line
 Wire Wire Line
 	1550 900  1450 900 
 Text Label 1500 900  0    50   ~ 0
-C
+U
 Text Label 1900 900  0    50   ~ 0
 D
 Text Label 2300 900  0    50   ~ 0
-E
-Text Label 2700 900  0    50   ~ 0
-F
-Text Label 3100 900  0    50   ~ 0
-G
-Text Label 3500 900  0    50   ~ 0
 H
+Text Label 2700 900  0    50   ~ 0
+P
+Text Label 3100 900  0    50   ~ 0
+C
+Text Label 3500 900  0    50   ~ 0
+N
 Wire Wire Line
 	3550 900  3450 900 
 Text Label 3900 900  0    50   ~ 0
-I
-Text Label 4300 900  0    50   ~ 0
-J
-Text Label 4700 900  0    50   ~ 0
-K
-Text Label 5100 900  0    50   ~ 0
-L
-Text Label 5500 900  0    50   ~ 0
-M
-Text Label 5900 900  0    50   ~ 0
-N
-Text Label 6300 900  0    50   ~ 0
-O
-Text Label 6700 900  0    50   ~ 0
-P
-Text Label 7100 900  0    50   ~ 0
-Q
-Text Label 7500 900  0    50   ~ 0
-R
-Text Label 7900 900  0    50   ~ 0
-S
-Text Label 8300 900  0    50   ~ 0
-T
-Text Label 8700 900  0    50   ~ 0
-U
-Text Label 9100 900  0    50   ~ 0
-V
-Text Label 9500 900  0    50   ~ 0
 W
+Text Label 4300 900  0    50   ~ 0
+T
+Text Label 4700 900  0    50   ~ 0
+I
+Text Label 5100 900  0    50   ~ 0
+A
+Text Label 5500 900  0    50   ~ 0
+F
+Text Label 5900 900  0    50   ~ 0
+J
+Text Label 6300 900  0    50   ~ 0
+Y
+Text Label 6700 900  0    50   ~ 0
+V
+Text Label 7100 900  0    50   ~ 0
+M
+Text Label 7500 900  0    50   ~ 0
+E
+Text Label 7900 900  0    50   ~ 0
+Z
+Text Label 8300 900  0    50   ~ 0
+O
+Text Label 8700 900  0    50   ~ 0
+S
+Text Label 9100 900  0    50   ~ 0
+G
+Text Label 9500 900  0    50   ~ 0
+K
 Text Label 9900 900  0    50   ~ 0
 X
 Text Label 10300 900  0    50   ~ 0
-Y
+B
 $Comp
 L formula:R_1K R25
 U 1 1 5BE13A6D
@@ -760,7 +760,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 10980 
 	0    1    1    0   
 $EndComp
 Text Label 10700 900  0    50   ~ 0
-Z
+L
 Wire Wire Line
 	2050 2100 2150 2100
 Wire Wire Line
@@ -916,53 +916,53 @@ NoConn ~ 6400 3650
 NoConn ~ 7750 4750
 Text Label 6550 2950 3    50   ~ 0
 SW
-Text Label 1500 5250 2    50   ~ 0
+Text Label 3300 4200 1    50   ~ 0
 SY
-Text Label 1500 5100 2    50   ~ 0
-SX
 Text Label 1500 4950 2    50   ~ 0
+SX
+Text Label 4050 5700 0    50   ~ 0
 SD
-Text Label 1500 4800 2    50   ~ 0
-SR
-Text Label 2250 4200 1    50   ~ 0
-SC
-Text Label 2400 4200 1    50   ~ 0
-SV
-Text Label 4050 6150 0    50   ~ 0
-SB
 Text Label 4050 6000 0    50   ~ 0
+SR
+Text Label 4050 5250 0    50   ~ 0
+SC
+Text Label 3150 4200 1    50   ~ 0
+SV
+Text Label 1500 5100 2    50   ~ 0
+SB
+Text Label 4050 5550 0    50   ~ 0
 SH
 Text Label 4050 5850 0    50   ~ 0
 SU
-Text Label 4050 5700 0    50   ~ 0
+Text Label 4050 4650 0    50   ~ 0
 SI
-Text Label 4050 5550 0    50   ~ 0
+Text Label 1950 4200 1    50   ~ 0
 SO
-Text Label 4050 5400 0    50   ~ 0
+Text Label 3450 4200 1    50   ~ 0
 SJ
-Text Label 4050 4800 0    50   ~ 0
+Text Label 1500 5250 2    50   ~ 0
 SL
 Text Label 4050 5100 0    50   ~ 0
 SN
-Text Label 4050 5250 0    50   ~ 0
+Text Label 1500 4800 2    50   ~ 0
 SK
-Text Label 1500 5850 2    50   ~ 0
+Text Label 2250 4200 1    50   ~ 0
 SE
-Text Label 1500 5700 2    50   ~ 0
+Text Label 4050 4500 0    50   ~ 0
 SA
-Text Label 1500 5550 2    50   ~ 0
-SS
-Text Label 1500 5400 2    50   ~ 0
-SP
-Text Label 1500 4650 2    50   ~ 0
-ST
 Text Label 1500 4500 2    50   ~ 0
-SZ
-Text Label 1950 4200 1    50   ~ 0
-SF
+SS
+Text Label 4050 5400 0    50   ~ 0
+SP
+Text Label 4050 4800 0    50   ~ 0
+ST
 Text Label 2100 4200 1    50   ~ 0
+SZ
+Text Label 3600 4200 1    50   ~ 0
+SF
+Text Label 1500 4650 2    50   ~ 0
 SG
-Text Label 4050 4950 0    50   ~ 0
+Text Label 2400 4200 1    50   ~ 0
 SM
 Text Label 6550 5100 3    50   ~ 0
 SY
@@ -978,16 +978,10 @@ Text Label 7900 4050 3    50   ~ 0
 SS
 Text Label 5200 5100 3    50   ~ 0
 SP
-Text Label 1500 6150 2    50   ~ 0
+Text Label 4050 6150 0    50   ~ 0
 SQ
-Text Label 1500 6000 2    50   ~ 0
+Text Label 4050 4950 0    50   ~ 0
 SW
-NoConn ~ 4050 4500
-NoConn ~ 4050 4650
-NoConn ~ 3600 4200
-NoConn ~ 3450 4200
-NoConn ~ 3300 4200
-NoConn ~ 3150 4200
 NoConn ~ 3000 4200
 NoConn ~ 2850 4200
 NoConn ~ 2550 4200
@@ -1987,4 +1981,10 @@ F 3 "" H 2050 3150 50  0001 C CNN
 	1    2050 3150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1500 5400
+NoConn ~ 1500 5550
+NoConn ~ 1500 5700
+NoConn ~ 1500 5850
+NoConn ~ 1500 6000
+NoConn ~ 1500 6150
 $EndSCHEMATC
