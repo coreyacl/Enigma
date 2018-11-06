@@ -774,136 +774,136 @@ Connection ~ 2150 2100
 $Comp
 L plugboard-rescue:audio_jack-library J3
 U 1 1 5BE19AD4
-P 4600 4400
-F 0 "J3" H 4954 5042 50  0000 C CNN
-F 1 "1/4\" Jack" H 4954 4951 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 5550 3950 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 5880 50  0001 C CNN
-F 4 "112BX" H 4300 4050 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4300 4050 60  0001 C CNN "MFN"
-F 6 "Value" H 4300 4050 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3750 6280 60  0001 C CNN "PurchasingLink"
-	1    4600 4400
+P 4100 4000
+F 0 "J3" H 4454 4642 50  0000 C CNN
+F 1 "1/4\" Jack" H 4454 4551 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 5050 3550 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 2850 5480 50  0001 C CNN
+F 4 "112BX" H 3800 3650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3800 3650 60  0001 C CNN "MFN"
+F 6 "Value" H 3800 3650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3250 5880 60  0001 C CNN "PurchasingLink"
+	1    4100 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J6
 U 1 1 5BE19FAB
-P 5950 4400
-F 0 "J6" H 6304 5042 50  0000 C CNN
-F 1 "1/4\" Jack" H 6304 4951 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 6900 3950 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 5880 50  0001 C CNN
-F 4 "112BX" H 5650 4050 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5650 4050 60  0001 C CNN "MFN"
-F 6 "Value" H 5650 4050 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5100 6280 60  0001 C CNN "PurchasingLink"
-	1    5950 4400
+P 5450 4000
+F 0 "J6" H 5804 4642 50  0000 C CNN
+F 1 "1/4\" Jack" H 5804 4551 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 6400 3550 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4200 5480 50  0001 C CNN
+F 4 "112BX" H 5150 3650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5150 3650 60  0001 C CNN "MFN"
+F 6 "Value" H 5150 3650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 4600 5880 60  0001 C CNN "PurchasingLink"
+	1    5450 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J8
 U 1 1 5BE1BB85
-P 7300 3350
-F 0 "J8" H 7654 3992 50  0000 C CNN
-F 1 "1/4\" Jack" H 7654 3901 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 8250 2900 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 4830 50  0001 C CNN
-F 4 "112BX" H 7000 3000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7000 3000 60  0001 C CNN "MFN"
-F 6 "Value" H 7000 3000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 6450 5230 60  0001 C CNN "PurchasingLink"
-	1    7300 3350
+P 6800 2950
+F 0 "J8" H 7154 3592 50  0000 C CNN
+F 1 "1/4\" Jack" H 7154 3501 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 7750 2500 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 5550 4430 50  0001 C CNN
+F 4 "112BX" H 6500 2600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6500 2600 60  0001 C CNN "MFN"
+F 6 "Value" H 6500 2600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5950 4830 60  0001 C CNN "PurchasingLink"
+	1    6800 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J4
 U 1 1 5BE1BB8F
-P 5950 2250
-F 0 "J4" H 6304 2892 50  0000 C CNN
-F 1 "1/4\" Jack" H 6304 2801 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 6900 1800 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 3730 50  0001 C CNN
-F 4 "112BX" H 5650 1900 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5650 1900 60  0001 C CNN "MFN"
-F 6 "Value" H 5650 1900 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5100 4130 60  0001 C CNN "PurchasingLink"
-	1    5950 2250
+P 5450 1850
+F 0 "J4" H 5804 2492 50  0000 C CNN
+F 1 "1/4\" Jack" H 5804 2401 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 6400 1400 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4200 3330 50  0001 C CNN
+F 4 "112BX" H 5150 1500 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5150 1500 60  0001 C CNN "MFN"
+F 6 "Value" H 5150 1500 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 4600 3730 60  0001 C CNN "PurchasingLink"
+	1    5450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J2
 U 1 1 5BE1EF6E
-P 4600 3350
-F 0 "J2" H 4954 3992 50  0000 C CNN
-F 1 "1/4\" Jack" H 4954 3901 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 5550 2900 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 4830 50  0001 C CNN
-F 4 "112BX" H 4300 3000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4300 3000 60  0001 C CNN "MFN"
-F 6 "Value" H 4300 3000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3750 5230 60  0001 C CNN "PurchasingLink"
-	1    4600 3350
+P 4100 2950
+F 0 "J2" H 4454 3592 50  0000 C CNN
+F 1 "1/4\" Jack" H 4454 3501 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 5050 2500 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 2850 4430 50  0001 C CNN
+F 4 "112BX" H 3800 2600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3800 2600 60  0001 C CNN "MFN"
+F 6 "Value" H 3800 2600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3250 4830 60  0001 C CNN "PurchasingLink"
+	1    4100 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J5
 U 1 1 5BE1EF78
-P 5950 3350
-F 0 "J5" H 6304 3992 50  0000 C CNN
-F 1 "1/4\" Jack" H 6304 3901 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 6900 2900 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4700 4830 50  0001 C CNN
-F 4 "112BX" H 5650 3000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5650 3000 60  0001 C CNN "MFN"
-F 6 "Value" H 5650 3000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5100 5230 60  0001 C CNN "PurchasingLink"
-	1    5950 3350
+P 5450 2950
+F 0 "J5" H 5804 3592 50  0000 C CNN
+F 1 "1/4\" Jack" H 5804 3501 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 6400 2500 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 4200 4430 50  0001 C CNN
+F 4 "112BX" H 5150 2600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5150 2600 60  0001 C CNN "MFN"
+F 6 "Value" H 5150 2600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 4600 4830 60  0001 C CNN "PurchasingLink"
+	1    5450 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J9
 U 1 1 5BE1EF82
-P 7300 4450
-F 0 "J9" H 7654 5092 50  0000 C CNN
-F 1 "1/4\" Jack" H 7654 5001 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 8250 4000 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 5930 50  0001 C CNN
-F 4 "112BX" H 7000 4100 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7000 4100 60  0001 C CNN "MFN"
-F 6 "Value" H 7000 4100 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 6450 6330 60  0001 C CNN "PurchasingLink"
-	1    7300 4450
+P 6800 4050
+F 0 "J9" H 7154 4692 50  0000 C CNN
+F 1 "1/4\" Jack" H 7154 4601 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 7750 3600 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 5550 5530 50  0001 C CNN
+F 4 "112BX" H 6500 3700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6500 3700 60  0001 C CNN "MFN"
+F 6 "Value" H 6500 3700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5950 5930 60  0001 C CNN "PurchasingLink"
+	1    6800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J1
 U 1 1 5BE1EF8C
-P 4600 2250
-F 0 "J1" H 4954 2892 50  0000 C CNN
-F 1 "1/4\" Jack" H 4954 2801 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 5550 1800 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 3350 3730 50  0001 C CNN
-F 4 "112BX" H 4300 1900 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4300 1900 60  0001 C CNN "MFN"
-F 6 "Value" H 4300 1900 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3750 4130 60  0001 C CNN "PurchasingLink"
-	1    4600 2250
+P 4100 1850
+F 0 "J1" H 4454 2492 50  0000 C CNN
+F 1 "1/4\" Jack" H 4454 2401 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 5050 1400 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 2850 3330 50  0001 C CNN
+F 4 "112BX" H 3800 1500 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3800 1500 60  0001 C CNN "MFN"
+F 6 "Value" H 3800 1500 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 3250 3730 60  0001 C CNN "PurchasingLink"
+	1    4100 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L plugboard-rescue:audio_jack-library J7
 U 1 1 5BE1EF96
-P 7300 2250
-F 0 "J7" H 7654 2892 50  0000 C CNN
-F 1 "1/4\" Jack" H 7654 2801 50  0000 C CNN
-F 2 "enigmaprints:jack_hole" H 8250 1800 50  0001 C CIN
-F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 6050 3730 50  0001 C CNN
-F 4 "112BX" H 7000 1900 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7000 1900 60  0001 C CNN "MFN"
-F 6 "Value" H 7000 1900 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 6450 4130 60  0001 C CNN "PurchasingLink"
-	1    7300 2250
+P 6800 1850
+F 0 "J7" H 7154 2492 50  0000 C CNN
+F 1 "1/4\" Jack" H 7154 2401 50  0000 C CNN
+F 2 "enigmaprints:jack_hole" H 7750 1400 50  0001 C CIN
+F 3 "http://www.switchcraft.com/Drawings/110x-m110x_series_cd.pdf" H 5550 3330 50  0001 C CNN
+F 4 "112BX" H 6500 1500 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6500 1500 60  0001 C CNN "MFN"
+F 6 "Value" H 6500 1500 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/switchcraft-inc/112BX/SC1317-ND/1217816" H 5950 3730 60  0001 C CNN "PurchasingLink"
+	1    6800 1850
 	1    0    0    -1  
 $EndComp
 Text Label 6650 2650 0    50   ~ 0
