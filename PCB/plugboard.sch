@@ -916,53 +916,53 @@ NoConn ~ 6400 3650
 NoConn ~ 7750 4750
 Text Label 6550 2950 3    50   ~ 0
 SW
-Text Label 1500 4500 2    50   ~ 0
+Text Label 4050 6150 0    50   ~ 0
 SY
-Text Label 1500 5850 2    50   ~ 0
-SX
-Text Label 4050 5700 0    50   ~ 0
-SD
-Text Label 4050 6000 0    50   ~ 0
-SR
-Text Label 4050 5250 0    50   ~ 0
-SC
-Text Label 1500 4650 2    50   ~ 0
-SV
-Text Label 1500 6000 2    50   ~ 0
-SB
-Text Label 4050 5550 0    50   ~ 0
-SH
-Text Label 4050 5850 0    50   ~ 0
-SU
-Text Label 4050 4650 0    50   ~ 0
-SI
-Text Label 1500 5250 2    50   ~ 0
-SO
-Text Label 3450 4200 1    50   ~ 0
-SJ
-Text Label 1500 6150 2    50   ~ 0
-SL
-Text Label 4050 5100 0    50   ~ 0
-SN
-Text Label 1500 5700 2    50   ~ 0
-SK
-Text Label 1500 4950 2    50   ~ 0
-SE
-Text Label 4050 4500 0    50   ~ 0
-SA
-Text Label 1500 5400 2    50   ~ 0
-SS
-Text Label 4050 5400 0    50   ~ 0
-SP
 Text Label 4050 4800 0    50   ~ 0
-ST
+SX
+Text Label 1500 4800 2    50   ~ 0
+SD
+Text Label 1500 4500 2    50   ~ 0
+SR
+Text Label 1500 5250 2    50   ~ 0
+SC
+Text Label 4050 6000 0    50   ~ 0
+SV
+Text Label 4050 4650 0    50   ~ 0
+SB
+Text Label 1500 4950 2    50   ~ 0
+SH
+Text Label 1500 4650 2    50   ~ 0
+SU
+Text Label 1500 5850 2    50   ~ 0
+SI
+Text Label 4050 5400 0    50   ~ 0
+SO
+Text Label 1500 6150 2    50   ~ 0
+SJ
+Text Label 4050 4500 0    50   ~ 0
+SL
+Text Label 1500 5400 2    50   ~ 0
+SN
+Text Label 4050 4950 0    50   ~ 0
+SK
+Text Label 4050 5700 0    50   ~ 0
+SE
+Text Label 1500 6000 2    50   ~ 0
+SA
+Text Label 4050 5250 0    50   ~ 0
+SS
 Text Label 1500 5100 2    50   ~ 0
+SP
+Text Label 1500 5700 2    50   ~ 0
+ST
+Text Label 4050 5550 0    50   ~ 0
 SZ
 Text Label 3600 4200 1    50   ~ 0
 SF
-Text Label 1500 5550 2    50   ~ 0
+Text Label 4050 5100 0    50   ~ 0
 SG
-Text Label 1500 4800 2    50   ~ 0
+Text Label 4050 5850 0    50   ~ 0
 SM
 Text Label 6550 5100 3    50   ~ 0
 SY
@@ -978,9 +978,9 @@ Text Label 7900 4050 3    50   ~ 0
 SS
 Text Label 5200 5100 3    50   ~ 0
 SP
-Text Label 4050 6150 0    50   ~ 0
+Text Label 1950 4200 1    50   ~ 0
 SQ
-Text Label 4050 4950 0    50   ~ 0
+Text Label 1500 5550 2    50   ~ 0
 SW
 NoConn ~ 3000 4200
 NoConn ~ 2850 4200
@@ -1947,8 +1947,6 @@ F 3 "" H 2050 3150 50  0001 C CNN
 	1    2050 3150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1950 4200
-NoConn ~ 2100 4200
 NoConn ~ 2250 4200
 NoConn ~ 2400 4200
 NoConn ~ 3150 4200
@@ -1987,4 +1985,6 @@ Text Label 10000 3075 0    50   ~ 0
 SG
 Text Label 10000 3275 0    50   ~ 0
 SB
+NoConn ~ 3450 4200
+NoConn ~ 2100 4200
 $EndSCHEMATC
