@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 31)
+    (drawings 41)
     (tracks 907)
     (zones 0)
     (modules 96)
@@ -296,10 +296,10 @@
     (add_net VCC)
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE1548E)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE2579C) (tstamp 5BE1548E)
     (at 138.811 106.172 180)
     (path /5BE1BB8F)
-    (fp_text reference J2 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J2 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -337,10 +337,10 @@
     (pad 4 thru_hole circle (at -2.4384 6.35 180) (size 3.556 3.556) (drill 2.54) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE15521)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257AF) (tstamp 5BE15521)
     (at 138.811 156.083 180)
     (path /5BE19FAB)
-    (fp_text reference J9 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J9 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -378,10 +378,10 @@
     (pad 4 thru_hole circle (at -2.4384 6.35 180) (size 3.556 3.556) (drill 2.54) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE1550C)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257AC) (tstamp 5BE1550C)
     (at 110.49 156.21 180)
     (path /5BE19AD4)
-    (fp_text reference J8 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J8 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -419,10 +419,10 @@
     (pad 4 thru_hole circle (at -2.4384 6.35 180) (size 3.556 3.556) (drill 2.54) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE1ADF4)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE2579F) (tstamp 5BE1ADF4)
     (at 167.894 106.172 180)
     (path /5BE1EF96)
-    (fp_text reference J3 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J3 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -460,10 +460,10 @@
     (pad 4 thru_hole circle (at -2.4384 6.35 180) (size 3.556 3.556) (drill 2.54) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE154CD)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257B4) (tstamp 5BE154CD)
     (at 139.827 131.191 180)
     (path /5BE1EF78)
-    (fp_text reference J5 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J5 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 270) (layer F.Fab)
@@ -501,10 +501,10 @@
     (pad 0 thru_hole circle (at 0 0 180) (size 6.604 6.604) (drill 6.35) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE154E2)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257B8) (tstamp 5BE154E2)
     (at 168.3004 131.191 180)
     (path /5BE1BB85)
-    (fp_text reference J6 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J6 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -575,10 +575,10 @@
     )
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE15479)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257A3) (tstamp 5BE15479)
     (at 110.6932 106.172 180)
     (path /5BE1EF8C)
-    (fp_text reference J1 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J1 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -616,10 +616,10 @@
     (pad 0 thru_hole circle (at 0 0 180) (size 6.604 6.604) (drill 6.35) (layers *.Cu *.Mask))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE1E96E)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257A7) (tstamp 5BE1E96E)
     (at 111.125 131.191 180)
     (path /5BE1EF6E)
-    (fp_text reference J4 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J4 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -2013,13 +2013,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE252B6) (tstamp 5BE37638)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2575C) (tstamp 5BE37638)
     (at 104.123535 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BEFB53D)
     (attr smd)
-    (fp_text reference R38 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R38 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2046,13 +2046,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE16070)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2577B) (tstamp 5BE16070)
     (at 119.614371 92.295672 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE240D7)
     (attr smd)
-    (fp_text reference R39 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R39 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2079,13 +2079,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1607F)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25780) (tstamp 5BE1607F)
     (at 121.945056 92.295672 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE240CB)
     (attr smd)
-    (fp_text reference R40 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R40 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2112,13 +2112,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1608E)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25783) (tstamp 5BE1608E)
     (at 124.402741 94.073672 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE240D1)
     (attr smd)
-    (fp_text reference R41 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R41 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2145,13 +2145,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1609D)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25884) (tstamp 5BE1609D)
     (at 158.912275 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE26A65)
     (attr smd)
-    (fp_text reference R42 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R42 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2178,13 +2178,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE160AC)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25886) (tstamp 5BE160AC)
     (at 161.24296 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE26A59)
     (attr smd)
-    (fp_text reference R43 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R43 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2211,13 +2211,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE160BB)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25889) (tstamp 5BE160BB)
     (at 163.573645 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE26A5F)
     (attr smd)
-    (fp_text reference R44 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R44 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2541,13 +2541,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE252B6) (tstamp 5BE374FD)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25760) (tstamp 5BE374FD)
     (at 106.997495 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE3D0A5)
     (attr smd)
-    (fp_text reference R54 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R54 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2574,13 +2574,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE252B6) (tstamp 5BE374D0)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2576F) (tstamp 5BE374D0)
     (at 109.32818 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE3D0AB)
     (attr smd)
-    (fp_text reference R55 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R55 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2607,13 +2607,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1616F)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25786) (tstamp 5BE1616F)
     (at 127.533865 93.98 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE334DA)
     (attr smd)
-    (fp_text reference R56 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R56 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2640,13 +2640,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1617E)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25789) (tstamp 5BE1617E)
     (at 129.86455 93.98 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE334CE)
     (attr smd)
-    (fp_text reference R57 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R57 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2673,13 +2673,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1618D)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2578C) (tstamp 5BE1618D)
     (at 132.195235 93.98 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE334D4)
     (attr smd)
-    (fp_text reference R58 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R58 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2706,13 +2706,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1619C)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2588C) (tstamp 5BE1619C)
     (at 166.27592 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE2D679)
     (attr smd)
-    (fp_text reference R59 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R59 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2739,13 +2739,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE161AB)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2588F) (tstamp 5BE161AB)
     (at 168.606605 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE2D66D)
     (attr smd)
-    (fp_text reference R60 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R60 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -2772,13 +2772,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE161BA)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25891) (tstamp 5BE161BA)
     (at 170.93729 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE2D673)
     (attr smd)
-    (fp_text reference R61 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R61 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3102,13 +3102,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE375DE)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25773) (tstamp 5BE375DE)
     (at 112.07514 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE4417D)
     (attr smd)
-    (fp_text reference R71 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R71 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3135,13 +3135,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE375B1)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25775) (tstamp 5BE375B1)
     (at 114.405825 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE44171)
     (attr smd)
-    (fp_text reference R72 (at 3.048 0.254 90) (layer F.SilkS)
+    (fp_text reference R72 (at 3.048 0.254 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3168,13 +3168,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE37584)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25778) (tstamp 5BE37584)
     (at 116.73651 92.329 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE44177)
     (attr smd)
-    (fp_text reference R73 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R73 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3201,13 +3201,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1627D)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE257C2) (tstamp 5BE1627D)
     (at 150.563195 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE5441D)
     (attr smd)
-    (fp_text reference R74 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R74 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3234,13 +3234,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1628C)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE257C5) (tstamp 5BE1628C)
     (at 152.89388 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE54411)
     (attr smd)
-    (fp_text reference R75 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R75 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3267,13 +3267,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE1629B)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25880) (tstamp 5BE1629B)
     (at 155.224565 92.71 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE54417)
     (attr smd)
-    (fp_text reference R76 (at 3.114 0 90) (layer F.SilkS)
+    (fp_text reference R76 (at 3.114 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3300,13 +3300,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE162AA)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25893) (tstamp 5BE162AA)
     (at 174.06525 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE4FFB5)
     (attr smd)
-    (fp_text reference R77 (at 3.048 0 90) (layer F.SilkS)
+    (fp_text reference R77 (at 3.048 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3333,13 +3333,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE162B9)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE25897) (tstamp 5BE162B9)
     (at 176.395935 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE4FFA9)
     (attr smd)
-    (fp_text reference R78 (at 2.987 0 90) (layer F.SilkS)
+    (fp_text reference R78 (at 2.987 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3366,13 +3366,13 @@
     )
   )
 
-  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5BE162C8)
+  (module enigmaprints:R_0805_OEM (layer F.Cu) (tedit 5BE2589A) (tstamp 5BE162C8)
     (at 178.72662 92.583 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE4FFAF)
     (attr smd)
-    (fp_text reference R79 (at 2.987 0 90) (layer F.SilkS)
+    (fp_text reference R79 (at 2.987 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_0 (at 0 1.75 90) (layer F.Fab) hide
@@ -3481,10 +3481,10 @@
       (net 2 GND))
   )
 
-  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE082A9) (tstamp 5BE34725)
+  (module enigmaprints:jack_hole (layer F.Cu) (tedit 5BE257B2) (tstamp 5BE34725)
     (at 167.894 156.21 180)
     (path /5BE1EF82)
-    (fp_text reference J10 (at -4.064 -6.096 180) (layer F.SilkS)
+    (fp_text reference J10 (at -4.064 -6.096 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "1/4\" Jack" (at -5.588 -4.064 180) (layer F.Fab)
@@ -3916,6 +3916,36 @@
       (net 59 /SQ))
   )
 
+  (gr_text "1 2 3" (at 176.403 89.916) (layer F.SilkS) (tstamp 5BE26749)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 168.783 89.916) (layer F.SilkS) (tstamp 5BE26747)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 161.29 89.789) (layer F.SilkS) (tstamp 5BE26743)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 152.908 89.789) (layer F.SilkS) (tstamp 5BE2673F)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 130.048 91.313) (layer F.SilkS) (tstamp 5BE2669B)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text 3 (at 124.46 91.313) (layer F.SilkS) (tstamp 5BE26691)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2\n" (at 120.777 89.535) (layer F.SilkS) (tstamp 5BE2668F)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 114.427 89.535) (layer F.SilkS) (tstamp 5BE26689)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2\n" (at 108.077 89.408) (layer F.SilkS) (tstamp 5BE2663F)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
+  (gr_text "1 2 3" (at 101.854 89.662) (layer F.SilkS)
+    (effects (font (size 1.5 1.397) (thickness 0.3)))
+  )
   (gr_text "1 2 3 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3" (at 139.319 172.212) (layer F.SilkS)
     (effects (font (size 1.6256 1.5875) (thickness 0.3)))
   )
