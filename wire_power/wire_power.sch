@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L wire_power-rescue:CONN_02X03-formula J?
+L formula:CONN_02X03 J?
 U 1 1 5BEB666D
 P 1500 1300
 F 0 "J?" H 1500 1615 50  0000 C CNN
@@ -29,7 +29,7 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:CONN_02X03-formula J?
+L formula:CONN_02X03 J?
 U 1 1 5BEB6B2A
 P 1500 1900
 F 0 "J?" H 1500 2215 50  0000 C CNN
@@ -43,7 +43,7 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:ADG732-Enigma U?
+L enigma:ADG732 U?
 U 1 1 5BEB6C8D
 P 2750 6150
 F 0 "U?" H 2900 6900 50  0000 L CNN
@@ -58,7 +58,7 @@ F 7 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADG732BSUZ-REE
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEB70D3
 P 5700 1400
 F 0 "Q?" H 5700 1725 50  0000 C CNN
@@ -161,7 +161,7 @@ F 3 "" H 4550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:R_10K-formula R?
+L formula:R_10K R?
 U 1 1 5BEBE0C3
 P 4150 6800
 F 0 "R?" H 4220 6846 50  0000 L CNN
@@ -175,7 +175,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 463
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:R_10K-formula R?
+L formula:R_10K R?
 U 1 1 5BEBE170
 P 4550 6800
 F 0 "R?" H 4620 6846 50  0000 L CNN
@@ -229,7 +229,7 @@ Text Label 1750 1800 0    50   ~ 0
 Text Label 1750 1900 0    50   ~ 0
 ~EN
 $Comp
-L wire_power-rescue:C_0.1uF-formula C?
+L formula:C_0.1uF C?
 U 1 1 5BEC5B93
 P 2250 6850
 F 0 "C?" H 2365 6896 50  0000 L CNN
@@ -293,7 +293,7 @@ F 3 "" H 3000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wire_power-rescue:R_200-formula R?
+L formula:R_200 R?
 U 1 1 5BEC7F2C
 P 3000 3950
 F 0 "R?" H 3070 3996 50  0000 L CNN
@@ -311,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 4100 3000 4250
 $Comp
-L wire_power-rescue:CONN_02X03-formula J?
+L formula:CONN_02X03 J?
 U 1 1 5BEC8EA9
 P 1500 2550
 F 0 "J?" H 1500 2865 50  0000 C CNN
@@ -454,7 +454,7 @@ SY
 Text Label 7500 4950 2    50   ~ 0
 SZ
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED7AAE
 P 6800 1400
 F 0 "Q?" H 6800 1725 50  0000 C CNN
@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 1500 6400 1550
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED86EE
 P 7900 1400
 F 0 "Q?" H 7900 1725 50  0000 C CNN
@@ -518,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1500 7500 1550
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED86FF
 P 9000 1400
 F 0 "Q?" H 9000 1725 50  0000 C CNN
@@ -550,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1500 8600 1550
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED8D94
 P 5700 2000
 F 0 "Q?" H 5700 2325 50  0000 C CNN
@@ -582,7 +582,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2100 5300 2150
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED8DA5
 P 6800 2000
 F 0 "Q?" H 6800 2325 50  0000 C CNN
@@ -614,7 +614,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2100 6400 2150
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED8DB6
 P 7900 2000
 F 0 "Q?" H 7900 2325 50  0000 C CNN
@@ -646,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2100 7500 2150
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED8DC7
 P 9000 2000
 F 0 "Q?" H 9000 2325 50  0000 C CNN
@@ -678,7 +678,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2100 8600 2150
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED987C
 P 5700 2600
 F 0 "Q?" H 5700 2925 50  0000 C CNN
@@ -710,7 +710,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2700 5300 2750
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED988D
 P 6800 2600
 F 0 "Q?" H 6800 2925 50  0000 C CNN
@@ -742,7 +742,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2700 6400 2750
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED989E
 P 7900 2600
 F 0 "Q?" H 7900 2925 50  0000 C CNN
@@ -774,7 +774,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2700 7500 2750
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED98AF
 P 9000 2600
 F 0 "Q?" H 9000 2925 50  0000 C CNN
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2700 8600 2750
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED98C0
 P 5700 3200
 F 0 "Q?" H 5700 3525 50  0000 C CNN
@@ -838,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3300 5300 3350
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED98D1
 P 6800 3200
 F 0 "Q?" H 6800 3525 50  0000 C CNN
@@ -870,7 +870,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3300 6400 3350
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED98E2
 P 7900 3200
 F 0 "Q?" H 7900 3525 50  0000 C CNN
@@ -902,7 +902,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3300 7500 3350
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BED98F3
 P 9000 3200
 F 0 "Q?" H 9000 3525 50  0000 C CNN
@@ -934,7 +934,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3300 8600 3350
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAE9E
 P 5700 3850
 F 0 "Q?" H 5700 4175 50  0000 C CNN
@@ -966,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3950 5300 4000
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAEAF
 P 6800 3850
 F 0 "Q?" H 6800 4175 50  0000 C CNN
@@ -998,7 +998,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3950 6400 4000
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAEC0
 P 7900 3850
 F 0 "Q?" H 7900 4175 50  0000 C CNN
@@ -1030,7 +1030,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3950 7500 4000
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAED1
 P 9000 3850
 F 0 "Q?" H 9000 4175 50  0000 C CNN
@@ -1062,7 +1062,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3950 8600 4000
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAEE2
 P 5700 4450
 F 0 "Q?" H 5700 4775 50  0000 C CNN
@@ -1094,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4550 5300 4600
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAEF3
 P 6800 4450
 F 0 "Q?" H 6800 4775 50  0000 C CNN
@@ -1126,7 +1126,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4550 6400 4600
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAF04
 P 7900 4450
 F 0 "Q?" H 7900 4775 50  0000 C CNN
@@ -1158,7 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4550 7500 4600
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDAF15
 P 9000 4450
 F 0 "Q?" H 9000 4775 50  0000 C CNN
@@ -1190,7 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 4550 8600 4600
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDF896
 P 6800 5050
 F 0 "Q?" H 6800 5375 50  0000 C CNN
@@ -1222,7 +1222,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5150 6400 5200
 $Comp
-L wire_power-rescue:CPC1025NTR-Enigma Q?
+L enigma:CPC1025NTR Q?
 U 1 1 5BEDF8A7
 P 7900 5050
 F 0 "Q?" H 7900 5375 50  0000 C CNN
@@ -1268,4 +1268,15 @@ NoConn ~ 1750 2550
 NoConn ~ 1750 2450
 NoConn ~ 1750 2000
 NoConn ~ 1750 1400
+$Comp
+L enigma:Conn_01x26_Male_0 J?
+U 1 1 5BEF48DE
+P 10350 2575
+F 0 "J?" H 10456 3653 50  0000 C CNN
+F 1 "Conn_01x26_Male_0" H 10456 3562 50  0000 C CNN
+F 2 "" H 10350 2575 50  0001 C CNN
+F 3 "" H 10350 2575 50  0001 C CNN
+	1    10350 2575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

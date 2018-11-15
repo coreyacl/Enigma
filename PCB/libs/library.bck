@@ -54,10 +54,4 @@ K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
-$CMP TLP785
-D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
-K NPN DC Optocoupler
-F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
-$ENDCMP
-#
 #End Doc Library
