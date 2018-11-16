@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:wire_power-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1279,4 +1278,56 @@ F 3 "" H 10350 2575 50  0001 C CNN
 	1    10350 2575
 	1    0    0    -1  
 $EndComp
+Text Label 10550 1675 0    50   ~ 0
+Hot_outA
+Text Label 10550 1775 0    50   ~ 0
+Hot_outB
+Text Label 10550 1875 0    50   ~ 0
+Hot_outC
+Text Label 10550 1975 0    50   ~ 0
+Hot_outD
+Text Label 10550 2075 0    50   ~ 0
+Hot_outE
+Text Label 10550 2175 0    50   ~ 0
+Hot_outF
+Text Label 10550 2275 0    50   ~ 0
+Hot_outG
+Text Label 10550 2375 0    50   ~ 0
+Hot_outH
+Text Label 10550 2475 0    50   ~ 0
+Hot_outI
+Text Label 10550 2575 0    50   ~ 0
+Hot_outJ
+Text Label 10550 2675 0    50   ~ 0
+Hot_outK
+Text Label 10550 2775 0    50   ~ 0
+Hot_outL
+Text Label 10550 2875 0    50   ~ 0
+Hot_outM
+Text Label 10550 2975 0    50   ~ 0
+Hot_outN
+Text Label 10550 3075 0    50   ~ 0
+Hot_outO
+Text Label 10550 3175 0    50   ~ 0
+Hot_outP
+Text Label 10550 3275 0    50   ~ 0
+Hot_outQ
+Text Label 10550 3375 0    50   ~ 0
+Hot_outR
+Text Label 10550 3475 0    50   ~ 0
+Hot_outS
+Text Label 10550 3575 0    50   ~ 0
+Hot_outT
+Text Label 10550 3675 0    50   ~ 0
+Hot_outU
+Text Label 10550 3775 0    50   ~ 0
+Hot_outV
+Text Label 10550 3875 0    50   ~ 0
+Hot_outW
+Text Label 10550 3975 0    50   ~ 0
+Hot_outX
+Text Label 10550 4075 0    50   ~ 0
+Hot_outY
+Text Label 10550 4175 0    50   ~ 0
+Hot_outZ
 $EndSCHEMATC
