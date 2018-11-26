@@ -263,6 +263,23 @@ X Pin_9 9 200 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Through_hole
+#
+DEF Through_hole J 0 40 Y N 1 F N
+F0 "J" -200 100 50 H V C CNN
+F1 "Through_hole" -500 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -166 5 -200 -5 1 1 6 F
+P 2 1 1 6 -150 0 -166 0 N
+X Pin_1 1 0 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # audio_jack
 #
 DEF audio_jack IC 0 40 Y Y 1 F N

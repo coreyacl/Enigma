@@ -1583,10 +1583,10 @@ $EndComp
 NoConn ~ 2700 4250
 NoConn ~ 2850 4250
 $Comp
-L enigma:Through_hole J?
+L enigma:Through_hole J3
 U 1 1 5BFE9737
 P 10550 4275
-F 0 "J?" H 10025 4400 50  0000 C CNN
+F 0 "J3" H 10025 4400 50  0000 C CNN
 F 1 "Through_hole" H 10000 4325 50  0000 C CNN
 F 2 "enigmaprints:thru_hole" H 10550 4275 50  0001 C CNN
 F 3 "" H 10550 4275 50  0001 C CNN
@@ -1596,10 +1596,10 @@ $EndComp
 Text Label 10550 4275 0    50   ~ 0
 Hot_in
 $Comp
-L enigma:Through_hole J?
+L enigma:Through_hole J30
 U 1 1 5BFF1BB0
 P 10550 4375
-F 0 "J?" H 10025 4500 50  0000 C CNN
+F 0 "J30" H 10025 4500 50  0000 C CNN
 F 1 "Through_hole" H 10000 4425 50  0000 C CNN
 F 2 "enigmaprints:thru_hole" H 10550 4375 50  0001 C CNN
 F 3 "" H 10550 4375 50  0001 C CNN
